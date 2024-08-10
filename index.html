@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SERA</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <link rel="stylesheet" href="dist/css/font.css" />
+
+    <!-- script -->
+    <script defer src="dist/main.js"></script>
+  </head>
+  <body class="font-sans">
+    <section
+      class="bg-white h-screen flex items-center dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]"
+    >
+      <div class="py-12 px-4 mx-auto max-w-screen-xl text-center lg:py-24 z-10 relative">
+        <!-- <h1 class="mb-4 text-4xl font-extrabold tracking-wide leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">الهيئة السعودية لتنظيم الكهرباء</h1> -->
+        <div class="max-w-3xl mx-auto mb-4">
+          <img class="w-full h-full object-scale-down" src="dist/img/logo-white.png" alt="logo" />
+        </div>
+        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
+          فعالية محفزة للابتكار، تهدف إلى استكشاف حلول إبداعية للتحديات التي تواجه قطاع الكهرباء.
+        </p>
+        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+          <a
+            href="#"
+            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+          >
+            تسجيل
+            <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+            </svg>
+          </a>
+          <a
+            href="#"
+            x-data
+            x-on:click.prevent="$scroll('#learn-more')"
+            class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
+          >
+            اعرف المزيد
+          </a>
+        </div>
+      </div>
+      <div class="bg-gradient-to-b from-primary-50 to-transparent dark:from-primary-900 w-full h-full absolute top-0 left-0 z-0"></div>
+    </section>
+
+    <section>
+      <div class="py-12 overflow-hidden">
+        <div class="grid grid-cols-6 gap-6 md:gap-12" id="learn-more">
+          <div class="col-span-6 md:col-span-3 self-center">
+            <div class="px-6 md:px-12">
+              <div class="flex flex-col w-full gap-8">
+                <h2 class="text-primary text-2xl font-bold md:text-3xl lg:text-4xl">التعريف بالهاكاثون</h2>
+                <p class="md:text-lg text-base leading-loose text-justify tracking-wider font-semibold">
+                  هاكاثون الهيئة السعودية لتنظيم الكهرباء (SERA) هو منافسة وطنية للمبدعين والمطورين والمهتمين في قطاع الكهرباء، يهدف إلى التعاون لإيجاد حلول إبداعية للتحديات التي
+                  تواجه هذا القطاع.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-6 md:col-span-3">
+            <div class="relative aspect-video">
+              <div class="w-full h-full absolute bg-white p-4 z-10">
+                <img class="w-full h-full object-scale-down" src="dist/img/logo.png" alt="logo" />
+              </div>
+              <div class="bg-primary aspect-video w-64 absolute -bottom-6 -right-6 z-0"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="py-12 overflow-hidden">
+        <div class="grid grid-cols-6 gap-6 md:gap-12">
+          <div class="col-span-6 md:col-span-3">
+            <div class="relative aspect-video">
+              <div class="w-full h-full absolute bg-white p-4 z-10">
+                <img class="w-full h-full object-scale-down" src="dist/img/logo.png" alt="logo" />
+              </div>
+              <div class="bg-primary aspect-video w-64 absolute -top-6 -left-6 z-0"></div>
+            </div>
+          </div>
+          <div class="col-span-6 md:col-span-3 self-center">
+            <div class="px-6 md:px-12">
+              <div class="flex flex-col w-full gap-8">
+                <h2 class="text-primary text-2xl font-bold md:text-3xl lg:text-4xl">عن الهيئة السعودية لتنظيم الكهرباء</h2>
+                <p class="md:text-lg text-base leading-loose text-justify tracking-wider font-semibold">
+                  أنشئت الهيئة بقرار مجلس الوزراء رقم (٢٣٦) في ١٤٢٢/٨/٢٧هـ، الموافق ٢٠٠١/١١/١٢م وتقوم الهيئة بمهمة تنظيم نشاط الكهرباء ويشمل ذلك توليد الكهرباء والإنتاج المزدوج من
+                  أي مصدر من مصادر الطاقة، ونقل الكهرباء، وتوزيعها، والمتاجرة بها، وبيعها بالتجزئة، ونشاط المشتري الرئيس، وتبريد المناطق. وينص التنظيم على أن تقوم الهيئة بتنظيم
+                  الخدمات والإشراف عليها في نطاق اختصاصها ومراقبة أدائها، والتنسيق فيما بين المؤسسات والجهات ذات العلاقة وبين الأشخاص المرخص لهم، لوضع الإطار التنظيمي والإجرائي
+                  اللازم لضمان مزاولة أنشطة الخدمات عند مستويات ذات جودة وموثوقية عالية وتوفيرها للمستهلك بأسعار تنافسية معقولة تحقق العدالة بين المستهلكين.
+                </p>
+                <a
+                  target="_blank"
+                  href="https://sera.gov.sa/ar/"
+                  class="inline-flex justify-center hover:text-primary-50 items-center py-3 px-5 text-base font-medium text-center text-primary rounded-lg border border-primary hover:bg-primary focus:ring-4 focus:ring-primary-400"
+                >
+                  اعرف المزيد
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-50">
+      <div class="container overflow-hidden mx-auto py-12 md:py-16 px-2">
+        <div class="flex flex-col gap-12 md:gap-16">
+          <h2 class="text-primary text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-center">المسارات والتحديات</h2>
+          <div class="grid grid-cols-6 gap-6">
+            <div class="col-span-6 md:col-span-3 lg:col-span-2">
+              <div class="flex group/track bg-primary-100 flex-col w-full gap-4 border border-primary-200 rounded-2xl px-2 pt-4 pb-2">
+                <h3 class="text-primary text-2xl font-bold px-2 tracking-wide">تعزيز رضا المستهلك</h3>
+                <div class="flex flex-col w-full gap-2">
+                  <div class="flex group gap-2 border cursor-pointer bg-gray-50 hover:bg-primary border-primary-200 p-2 rounded-2xl">
+                    <div class="flex w-14 bg-primary group-hover:bg-primary-50 h-14 flex-shrink-0 items-center justify-center rounded-2xl">
+                      <div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">01</div>
+                    </div>
+                    <div class="flex">
+                      <p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">إيجاد حلول لإدارة الطاقة الشخصية للمستهلكين</p>
+                    </div>
+                  </div>
+                  <div class="flex group gap-2 border cursor-pointer bg-gray-50 hover:bg-primary border-primary-200 p-2 rounded-2xl">
+                    <div class="flex w-14 bg-primary group-hover:bg-primary-50 h-14 flex-shrink-0 items-center justify-center rounded-2xl">
+                      <div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">02</div>
+                    </div>
+                    <div class="flex">
+                      <p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">تطوير منصات لتعزيز التفاعل والرضا لدى العملاء</p>
+                    </div>
+                  </div>
+                  <div class="flex group gap-2 border cursor-pointer bg-gray-50 hover:bg-primary border-primary-200 p-2 rounded-2xl">
+                    <div class="flex w-14 bg-primary group-hover:bg-primary-50 h-14 flex-shrink-0 items-center justify-center rounded-2xl">
+                      <div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">03</div>
+                    </div>
+                    <div class="flex">
+                      <p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">تصميم حلول مبتكرة لفوترة الطاقة وشفافية الاستخدام</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-span-6 md:col-span-3 lg:col-span-2">
+              <div class="flex group/track bg-primary-100 flex-col w-full gap-4 border border-primary-200 rounded-2xl px-2 pt-4 pb-2">
+                <h3 class="text-primary text-2xl font-bold px-2 tracking-wide">دمج الطاقة المتجددة</h3>
+                <div class="flex flex-col w-full gap-2">
+                  <div class="flex group gap-2 border cursor-pointer bg-gray-50 hover:bg-primary border-primary-200 p-2 rounded-2xl">
+                    <div class="flex w-14 bg-primary group-hover:bg-primary-50 h-14 flex-shrink-0 items-center justify-center rounded-2xl">
+                      <div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">01</div>
+                    </div>
+                    <div class="flex">
+                      <p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">دمج مصادر الطاقة المتجددة بكفاءة في شبكة الطاقة الحالية</p>
+                    </div>
+                  </div>
+                  <div class="flex group gap-2 border cursor-pointer bg-gray-50 hover:bg-primary border-primary-200 p-2 rounded-2xl">
+                    <div class="flex w-14 bg-primary group-hover:bg-primary-50 h-14 flex-shrink-0 items-center justify-center rounded-2xl">
+                      <div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">02</div>
+                    </div>
+                    <div class="flex">
+                      <p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">
+                        تطوير تقنيات تخزين الطاقة لإدارة التقطع في مصادر الطاقة المتجددة
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex group gap-2 border cursor-pointer bg-gray-50 hover:bg-primary border-primary-200 p-2 rounded-2xl">
+                    <div class="flex w-14 bg-primary group-hover:bg-primary-50 h-14 flex-shrink-0 items-center justify-center rounded-2xl">
+                      <div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">03</div>
+                    </div>
+                    <div class="flex">
+                      <p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">
+                        تحقيق التوازن الأمثل بين الأحمال باستخدام مزيج من المصادر المتجددة وغير المتجددة
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex group gap-2 border cursor-pointer bg-gray-50 hover:bg-primary border-primary-200 p-2 rounded-2xl">
+                    <div class="flex w-14 bg-primary group-hover:bg-primary-50 h-14 flex-shrink-0 items-center justify-center rounded-2xl">
+                      <div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">04</div>
+                    </div>
+                    <div class="flex">
+                      <p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">حلول ابتكارية للمولدات الاحتياطية</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-span-6 md:col-span-3 lg:col-span-2">
+              <div class="flex group/track bg-primary-100 flex-col w-full gap-4 border border-primary-200 rounded-2xl px-2 pt-4 pb-2">
+                <h3 class="text-primary text-2xl font-bold px-2 tracking-wide">إدارة البيانات الضخمة والتحليل</h3>
+                <div class="flex flex-col w-full gap-2">
+                  <div class="flex group gap-2 border cursor-pointer bg-gray-50 hover:bg-primary border-primary-200 p-2 rounded-2xl">
+                    <div class="flex w-14 bg-primary group-hover:bg-primary-50 h-14 flex-shrink-0 items-center justify-center rounded-2xl">
+                      <div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">01</div>
+                    </div>
+                    <div class="flex">
+                      <p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">أدوات لتحليل البيانات الكبيرة من الشبكات الكهربائية</p>
+                    </div>
+                  </div>
+                  <div class="flex group gap-2 border cursor-pointer bg-gray-50 hover:bg-primary border-primary-200 p-2 rounded-2xl">
+                    <div class="flex w-14 bg-primary group-hover:bg-primary-50 h-14 flex-shrink-0 items-center justify-center rounded-2xl">
+                      <div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">02</div>
+                    </div>
+                    <div class="flex">
+                      <p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">تقنيات لتجميع وتخزين البيانات بشكل آمن وفعال</p>
+                    </div>
+                  </div>
+                  <div class="flex group gap-2 border cursor-pointer bg-gray-50 hover:bg-primary border-primary-200 p-2 rounded-2xl">
+                    <div class="flex w-14 bg-primary group-hover:bg-primary-50 h-14 flex-shrink-0 items-center justify-center rounded-2xl">
+                      <div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">03</div>
+                    </div>
+                    <div class="flex">
+                      <p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">تطوير نظم لتحليل البيانات التنبؤية لتحسين أداء الشبكات</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white">
+      <div class="container overflow-hidden mx-auto px-4 py-12 md:py-16">
+        <div class="flex flex-col gap-12 md:gap-16">
+          <h2 class="text-primary text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-center">الفئات المستهدفة</h2>
+          <div class="grid grid-cols-6 gap-6">
+            <div class="col-span-6 sm:col-span-3 lg:col-span-2">
+              <div class="flex hover:bg-primary-950 bg-primary flex-col items-center w-full gap-4 rounded-2xl px-4 py-16">
+                <img class="w-16 h-16" src="dist/svg/altlab-algamaayon.svg" alt="altlab-algamaayon" />
+                <div class="flex items-center justify-center h-20 w-full">
+                  <h3 class="text-white text-xl text-center leading-loose">التقنيون والمهندسون والمتخصصون في قطاع الكهرباء</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-span-6 sm:col-span-3 lg:col-span-2">
+              <div class="flex hover:bg-primary-950 bg-primary flex-col items-center w-full gap-4 rounded-2xl px-4 py-16">
+                <img class="w-16 h-16" src="dist/svg/altlab-algamaayon.svg" alt="altlab-algamaayon" />
+                <div class="flex items-center justify-center h-20 w-full">
+                  <h3 class="text-white text-xl text-center leading-loose">رواد الأعمال ومطورو الأعمال</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-span-6 sm:col-span-3 lg:col-span-2">
+              <div class="flex hover:bg-primary-950 bg-primary flex-col items-center w-full gap-4 rounded-2xl px-4 py-16">
+                <img class="w-16 h-16" src="dist/svg/altlab-algamaayon.svg" alt="altlab-algamaayon" />
+                <div class="flex items-center justify-center h-20 w-full">
+                  <h3 class="text-white text-xl text-center leading-loose">الباحثون والطلاب الجامعيين</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-50">
+      <div class="container overflow-hidden mx-auto py-12 md:py-16 px-2">
+        <div class="flex flex-col gap-12 md:gap-16">
+          <h2 class="text-primary text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-center">معايير التقييم</h2>
+          <div class="grid grid-cols-6 gap-6 md:divide-x-reverse md:divide-x">
+            <div class="col-span-6 md:col-span-2">
+              <div class="flex gap-6 items-center justify-center group">
+                <div class="aspect-square flex items-center justify-center p-4">
+                  <div
+                    class="w-16 h-16 rounded-full bg-primary-800 flex items-center group-hover:ring-primary-500 group-hover:bg-primary-950 justify-center ring-8 ring-primary-400"
+                  >
+                    <span class="text-white text-2xl font-bold">1</span>
+                  </div>
+                </div>
+                <h3 class="text-xl font-bold text-gray-600 w-32 text-center md:w-auto md:text-start">الابتكار</h3>
+              </div>
+            </div>
+            <div class="col-span-6 md:col-span-2">
+              <div class="flex gap-6 items-center justify-center group">
+                <div class="aspect-square flex items-center justify-center p-4">
+                  <div
+                    class="w-16 h-16 rounded-full bg-primary-800 flex items-center group-hover:ring-primary-500 group-hover:bg-primary-950 justify-center ring-8 ring-primary-400"
+                  >
+                    <span class="text-white text-2xl font-bold">2</span>
+                  </div>
+                </div>
+                <h3 class="text-xl font-bold text-gray-600 w-32 text-center md:w-auto md:text-start">جدوى الفكرة</h3>
+              </div>
+            </div>
+            <div class="col-span-6 md:col-span-2">
+              <div class="flex gap-6 items-center justify-center group">
+                <div class="aspect-square flex items-center justify-center p-4">
+                  <div
+                    class="w-16 h-16 rounded-full bg-primary-800 flex items-center group-hover:ring-primary-500 group-hover:bg-primary-950 justify-center ring-8 ring-primary-400"
+                  >
+                    <span class="text-white text-2xl font-bold">3</span>
+                  </div>
+                </div>
+                <h3 class="text-xl font-bold text-gray-600 w-32 text-center md:w-auto md:text-start">فريق العمل</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white">
+      <div class="container overflow-hidden mx-auto px-4 py-12 md:py-16">
+        <div class="flex flex-col gap-12 md:gap-16">
+          <h2 class="text-primary text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-center">الشروط والاحكام</h2>
+          <div class="prose max-w-screen-lg">
+            <ul class="marker:text-primary">
+              <li class="md:text-lg text-base leading-loose text-gray-600 tracking-wider">أن يكون عـمر المشـارك أكثـر من 18 سنة.</li>
+              <li class="md:text-lg text-base leading-loose text-gray-600 tracking-wider">أن يكون صاحب الفكرة سعودي الجنسية أو مقيماً في المملكة العربية السعوديـة.</li>
+              <li class="md:text-lg text-base leading-loose text-gray-600 tracking-wider">الموافقة على مشاركة البيانات الشخصية الهيئة السعودية لتنظيم الكهرباء وشركاؤها.</li>
+              <li class="md:text-lg text-base leading-loose text-gray-600 tracking-wider">أن تكون الفكرة واقعية وقابلة للتطبيق مع إمكانية تحويلها إلى مشروع استثماري.</li>
+              <li class="md:text-lg text-base leading-loose text-gray-600 tracking-wider">
+                الموافقة على استخدام اسم المشارك وصورته الضوئية للإعلان في وسائل الإعلام المختلفة ووسائل التواصل الاجتماعي من قبل فريق العمل.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-50">
+      <div class="container overflow-hidden mx-auto py-12 md:py-16 px-2">
+        <div class="flex flex-col gap-12 md:gap-16">
+          <h2 class="text-primary text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-center">الاسئلة الشائعة</h2>
+          <div class="flex flex-col gap-4">
+            <div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
+              <div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
+                <h3 class="font-bold text-lg text-primary-50">1. ما هو الهاكاثون؟</h3>
+              </div>
+              <div x-cloak x-collapse x-show="open" class="p-4">
+                <p class="font-bold text-lg">هو منافسة وطنية للمبدعين والمطورين والمهتمين في قطاع الكهرباء، يهدف إلى التعاون لإيجاد حلول إبداعية للتحديات التي تواجه هذا القطاع.</p>
+              </div>
+            </div>
+
+            <div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
+              <div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
+                <h3 class="font-bold text-lg text-primary-50">2. ما هي الهيئة السعودية لتنظيم الكهرباء؟</h3>
+              </div>
+              <div x-cloak x-collapse x-show="open" class="p-4">
+                <p class="font-bold text-lg">
+                  تقوم الهيئة بمهمة تنظيم نشاط الكهرباء ويشمل ذلك توليد الكهرباء والإنتاج المزدوج من أي مصدر من مصادر الطاقة، ونقل الكهرباء، وتوزيعها، والمتاجرة بها، وبيعها
+                  بالتجزئة، ونشاط المشتري الرئيس، وتبريد المناطق. وينص التنظيم على أن تقوم الهيئة بتنظيم الخدمات والإشراف عليها في نطاق اختصاصها ومراقبة أدائها، والتنسيق فيما بين
+                  المؤسسات والجهات ذات العلاقة وبين الأشخاص المرخص لهم، لوضع الإطار التنظيمي والإجرائي اللازم لضمان مزاولة أنشطة الخدمات عند مستويات ذات جودة وموثوقية عالية
+                  وتوفيرها للمستهلك بأسعار تنافسية معقولة تحقق العدالة بين المستهلكين.
+                </p>
+              </div>
+            </div>
+
+            <div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
+              <div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
+                <h3 class="font-bold text-lg text-primary-50">3. ما هي أهداف الهاكاثون؟</h3>
+              </div>
+              <div x-cloak x-collapse x-show="open" class="p-4">
+                <p class="font-bold text-lg">
+                  يهدف الهاكاثون إلى العمل على رصد التحديات التي تواجه قطاع الكهرباء في المملكة، وإبراز وإشراك أفراد المجتمع بطرح حلولٍ ذات طابع استثماري للتحديات، وأخيرًا خلق
+                  شركات استثمارية متنوعة ومستدامة.
+                </p>
+              </div>
+            </div>
+
+            <div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
+              <div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
+                <h3 class="font-bold text-lg text-primary-50">4. ما هي اللغة المستخدمة في الهاكاثون؟</h3>
+              </div>
+              <div x-cloak x-collapse x-show="open" class="p-4">
+                <p class="font-bold text-lg">اللغة العربية.</p>
+              </div>
+            </div>
+
+            <div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
+              <div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
+                <h3 class="font-bold text-lg text-primary-50">5. ما هي خطوات التسجيل في الهاكاثون؟</h3>
+              </div>
+              <div x-cloak x-collapse x-show="open" class="p-4">
+                <p class="font-bold text-lg">
+                  بإمكانك التسجيل في الهاكاثون بعد الاطلاع على المسارات والتحديات الموجودة على المنصة، ثم بعد ذلك اختيار التحدي الذي تود المشاركة فيه، ثم تقديم حلك المبتكر بعد
+                  إضافة بيانات التواصل الخاص بك.
+                </p>
+              </div>
+            </div>
+
+            <div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
+              <div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
+                <h3 class="font-bold text-lg text-primary-50">
+                  6. لدي حل وفكرة استثمارية لتحدي في قطاع الكهرباء من خارج المسارات والتحديات المذكورة في المنصة، هل يمكنني المشاركة ؟
+                </h3>
+              </div>
+              <div x-cloak x-collapse x-show="open" class="p-4">
+                <p class="font-bold text-lg">نعم بالطبع، بإمكانك المشاركة بطرح فكرة جديدة ومبتكرة تخدم مجالًا غير موجود في الهاكاثون.</p>
+              </div>
+            </div>
+
+            <div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
+              <div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
+                <h3 class="font-bold text-lg text-primary-50">7. هل بإمكاني التسجيل في جميع المسارات؟</h3>
+              </div>
+              <div x-cloak x-collapse x-show="open" class="p-4">
+                <p class="font-bold text-lg">نعم، يمكنك التسجيل بأكثر من مسار، ولكن ستشارك بفكرة واحدة إذا تم ترشيحك.</p>
+              </div>
+            </div>
+
+            <div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
+              <div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
+                <h3 class="font-bold text-lg text-primary-50">8. هل يتطلب وجود فريق؟ وكم العدد المسموح لأعضاء الفريق الواحد؟</h3>
+              </div>
+              <div x-cloak x-collapse x-show="open" class="p-4">
+                <p class="font-bold text-lg">يمكنك المشاركة في التحدي كفرد، ولكن بعد ترشح فكرتك للهاكاثون لا بد من تكوين فريق من شخصين يحمل معك الفكرة للمشاركة في الهاكاثون.</p>
+              </div>
+            </div>
+
+            <div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
+              <div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
+                <h3 class="font-bold text-lg text-primary-50">9. هل يمكن تغيير أعضاء الفريق بعد التسجيل؟</h3>
+              </div>
+              <div x-cloak x-collapse x-show="open" class="p-4">
+                <p class="font-bold text-lg">نعم يمكنك تغيير أعضاء الفريق بعد التسجيل، ولكن عند الترشح لابد لك من اختيار شخصين لتمثيل الفكرة والمشاركة في الهاكاثون.</p>
+              </div>
+            </div>
+
+            <div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
+              <div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
+                <h3 class="font-bold text-lg text-primary-50">10. هل توجد رسوم تسجيل في الهاكاثون؟</h3>
+              </div>
+              <div x-cloak x-collapse x-show="open" class="p-4">
+                <p class="font-bold text-lg">لا، لا توجد رسوم تسجيل.</p>
+              </div>
+            </div>
+
+            <div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
+              <div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
+                <h3 class="font-bold text-lg text-primary-50">11. هل يُشترط للاشتراك في الهاكاثون العمل في جهة في مجال الكهرباء؟</h3>
+              </div>
+              <div x-cloak x-collapse x-show="open" class="p-4">
+                <p class="font-bold text-lg">لا، لا يُشترط.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white">
+      <div class="container overflow-hidden mx-auto px-4 py-6">
+        <p class="text-sm text-center leading-loose text-gray-600 tracking-wider">
+          جميع الحقوق محفوظة &copy;
+          <span x-data x-text="new Date().getFullYear()"></span>
+        </p>
+      </div>
+    </section>
+
+    <section class="bg-white">
+      <div class="w-full h-2 bg-primary"></div>
+    </section>
+  </body>
+</html>

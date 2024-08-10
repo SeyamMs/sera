@@ -1,0 +1,40 @@
+{
+  "name": "my-webpack-project",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/style.css -o ./dist/css/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "keywords": [
+    "sera"
+  ],
+  "author": "Mohammed Seyam",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.14",
+    "@webpack-cli/generators": "^3.0.7",
+    "autoprefixer": "^10.4.20",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "postcss": "^8.4.41",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.9",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@alpine-collective/toolkit": "^1.0.2",
+    "@alpinejs/collapse": "^3.14.1",
+    "alpinejs": "^3.14.1",
+    "copy-webpack-plugin": "^12.0.2"
+  }
+}

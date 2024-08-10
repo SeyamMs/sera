@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'GE Dinar Two';
+    src: url('../font/GEDinarTwoMedium.woff2') format('woff2'),
+        url('../font/GEDinarTwoMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
