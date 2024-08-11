@@ -1242,6 +1242,10 @@ video {
   min-height: 434px;
 }
 
+.min-h-\[468px\] {
+  min-height: 468px;
+}
+
 .min-h-\[520px\] {
   min-height: 520px;
 }
@@ -1258,8 +1262,12 @@ video {
   min-height: 864px;
 }
 
-.min-h-\[468px\] {
-  min-height: 468px;
+.min-h-\[240px\] {
+  min-height: 240px;
+}
+
+.min-h-\[242px\] {
+  min-height: 242px;
 }
 
 .w-12 {
@@ -1290,12 +1298,16 @@ video {
   width: 16rem;
 }
 
-.w-80 {
-  width: 20rem;
-}
-
 .w-full {
   width: 100%;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .max-w-3xl {
@@ -1422,6 +1434,10 @@ video {
   gap: 2rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1522,8 +1538,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'https\:\/\/flowbite\.s3\.amazonaws\.com\/docs\/jumbotron\/hero-pattern\.svg\'\)\] {
-  background-image: url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg');
+.bg-\[url\(\'\.\.\/img\/hero-pattern\.svg\'\)\] {
+  background-image: url('../img/hero-pattern.svg');
 }
 
 .bg-gradient-to-b {
@@ -1544,18 +1560,6 @@ video {
 
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'dist\/img\/hero-pattern\.svg\'\)\] {
-  background-image: url('dist/img/hero-pattern.svg');
-}
-
-.bg-\[url\(\'\/dist\/img\/hero-pattern\.svg\'\)\] {
-  background-image: url('/dist/img/hero-pattern.svg');
-}
-
-.bg-\[url\(\'\.\.\/img\/hero-pattern\.svg\'\)\] {
-  background-image: url('../img/hero-pattern.svg');
 }
 
 .from-primary {
@@ -1640,11 +1644,6 @@ video {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 }
 
 .py-3 {
@@ -2086,12 +2085,28 @@ video {
     min-height: 528px;
   }
 
-  .md\:w-auto {
-    width: auto;
+  .md\:min-h-\[336px\] {
+    min-height: 336px;
+  }
+
+  .md\:min-h-\[\] {
+    min-height: ;
+  }
+
+  .md\:min-h-\[332px\] {
+    min-height: 332px;
   }
 
   .md\:w-80 {
     width: 20rem;
+  }
+
+  .md\:w-auto {
+    width: auto;
+  }
+
+  .md\:w-28 {
+    width: 7rem;
   }
 
   .md\:gap-12 {
@@ -2104,6 +2119,10 @@ video {
 
   .md\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .md\:gap-4 {
+    gap: 1rem;
   }
 
   .md\:divide-x > :not([hidden]) ~ :not([hidden]) {
@@ -2165,6 +2184,11 @@ video {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
@@ -2239,18 +2263,6 @@ video {
   .dark\:bg-gray-900 {
     --tw-bg-opacity: 1;
     background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-  }
-
-  .dark\:bg-\[url\(\'https\:\/\/flowbite\.s3\.amazonaws\.com\/docs\/jumbotron\/hero-pattern-dark\.svg\'\)\] {
-    background-image: url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg');
-  }
-
-  .dark\:bg-\[url\(\'dist\/img\/hero-pattern-dark\.svg\'\)\] {
-    background-image: url('dist/img/hero-pattern-dark.svg');
-  }
-
-  .dark\:bg-\[url\(\'\/dist\/img\/hero-pattern-dark\.svg\'\)\] {
-    background-image: url('/dist/img/hero-pattern-dark.svg');
   }
 
   .dark\:bg-\[url\(\'\.\.\/img\/hero-pattern-dark\.svg\'\)\] {
