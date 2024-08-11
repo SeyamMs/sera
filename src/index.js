@@ -26,8 +26,11 @@ const nextBtn = emblaNode.querySelector(".embla__button--next")
 
 const emblaApi = EmblaCarousel(viewportNode, OPTIONS, [AutoScroll({ playOnInit: true, stopOnInteraction: false })])
 
-const removePrevNextBtnsClickHandlers = addPrevNextBtnsClickHandlers(emblaApi, prevBtn, nextBtn)
+// const removePrevNextBtnsClickHandlers = addPrevNextBtnsClickHandlers(emblaApi, prevBtn, nextBtn)
 const removePlayBtnListeners = addPlayBtnListeners(emblaApi)
-const removeNavBtnListeners = addNavBtnListeners(emblaApi, prevBtn, nextBtn)
+// const removeNavBtnListeners = addNavBtnListeners(emblaApi, prevBtn, nextBtn)
 
-emblaApi.on("destroy", removePrevNextBtnsClickHandlers).on("destroy", removePlayBtnListeners).on("destroy", removeNavBtnListeners)
+emblaApi
+	// .on("destroy", removePrevNextBtnsClickHandlers)
+	.on("destroy", removePlayBtnListeners)
+// .on("destroy", removeNavBtnListeners)

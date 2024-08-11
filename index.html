@@ -14,15 +14,15 @@
 	</head>
 
 	<body class="font-sans">
-		<section class="bg-white h-screen flex items-center dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]">
-			<div class="py-12 px-4 mx-auto max-w-screen-xl text-center lg:py-24 z-10 relative">
-				<!-- <h1 class="mb-4 text-4xl font-extrabold tracking-wide leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">الهيئة السعودية لتنظيم الكهرباء</h1> -->
+		<section class="bg-white h-screen min-h-[30rem] flex items-center dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]">
+			<div class="lg:py-24 relative z-10 max-w-screen-xl px-4 py-12 mx-auto text-center">
+				<!-- <h1 class="md:text-5xl lg:text-6xl dark:text-white mb-4 text-4xl font-extrabold leading-none tracking-wide text-gray-900">الهيئة السعودية لتنظيم الكهرباء</h1> -->
 				<div class="max-w-3xl mx-auto mb-4">
-					<img class="w-full h-full object-scale-down" src="dist/img/logo-white.png" alt="logo" />
+					<img class="object-scale-down w-full h-full" src="dist/img/logo-white.png" alt="logo" />
 				</div>
-				<p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">فعالية محفزة للابتكار، تهدف إلى استكشاف حلول إبداعية للتحديات التي تواجه قطاع الكهرباء.</p>
-				<div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-					<a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+				<p class="lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200 mb-8 text-lg font-normal text-gray-500">فعالية محفزة للابتكار، تهدف إلى استكشاف حلول إبداعية للتحديات التي تواجه قطاع الكهرباء.</p>
+				<div class="sm:flex-row sm:justify-center sm:space-y-0 flex flex-col space-y-4">
+					<a href="#" class="bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white rounded-lg">
 						تسجيل
 						<svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
 							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -32,33 +32,33 @@
 						href="#"
 						x-data
 						x-on:click.prevent="$scroll('#learn-more', {behavior: 'smooth', offset: -90})"
-						class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+						class="hover:text-gray-900 sm:ms-4 hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-white rounded-lg">
 						اعرف المزيد
 					</a>
 				</div>
 			</div>
-			<div class="bg-gradient-to-b from-primary-50 to-transparent dark:from-primary-900 w-full h-full absolute top-0 left-0 z-0"></div>
+			<div class="bg-gradient-to-b from-primary-50 to-transparent dark:from-primary-900 absolute top-0 left-0 z-0 w-full h-full"></div>
 		</section>
 
 		<section>
 			<div class="py-12 overflow-hidden">
-				<div class="grid grid-cols-6 gap-6 md:gap-12" id="learn-more">
-					<div class="col-span-6 md:col-span-3 self-center">
-						<div class="px-6 md:px-12">
+				<div class="md:gap-12 grid grid-cols-6 gap-6" id="learn-more">
+					<div class="md:col-span-3 self-center col-span-6">
+						<div class="md:px-12 px-6">
 							<div class="flex flex-col w-full gap-8">
-								<h2 class="text-primary text-2xl font-bold md:text-3xl lg:text-4xl">التعريف بالهاكاثون</h2>
-								<p class="md:text-lg text-base leading-loose text-justify tracking-wider font-semibold">
+								<h2 class="text-primary md:text-3xl lg:text-4xl text-2xl font-bold">التعريف بالهاكاثون</h2>
+								<p class="md:text-lg text-base font-semibold leading-loose tracking-wider text-justify">
 									هاكاثون الهيئة السعودية لتنظيم الكهرباء (SERA) هو منافسة وطنية للمبدعين والمطورين والمهتمين في قطاع الكهرباء، يهدف إلى التعاون لإيجاد حلول إبداعية للتحديات التي تواجه هذا القطاع.
 								</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-span-6 md:col-span-3">
-						<div class="relative aspect-video">
-							<div class="w-full h-full absolute bg-white p-4 z-10">
-								<img class="w-full h-full object-scale-down" src="dist/img/logo.png" alt="logo" />
+					<div class="md:col-span-3 col-span-6">
+						<div class="aspect-video relative">
+							<div class="absolute z-10 w-full h-full p-4 bg-white">
+								<img class="object-scale-down w-full h-full" src="dist/img/logo.png" alt="logo" />
 							</div>
-							<div class="bg-primary aspect-video w-64 absolute -bottom-6 -right-6 z-0"></div>
+							<div class="bg-primary aspect-video -bottom-6 -right-6 absolute z-0 w-64"></div>
 						</div>
 					</div>
 				</div>
@@ -67,20 +67,20 @@
 
 		<section>
 			<div class="py-12 overflow-hidden">
-				<div class="grid grid-cols-6 gap-6 md:gap-12">
-					<div class="col-span-6 md:col-span-3">
-						<div class="relative aspect-video">
-							<div class="w-full h-full absolute bg-white p-4 z-10">
-								<img class="w-full h-full object-scale-down" src="dist/img/logo.png" alt="logo" />
+				<div class="md:gap-12 grid grid-cols-6 gap-6">
+					<div class="md:col-span-3 col-span-6">
+						<div class="aspect-video relative">
+							<div class="absolute z-10 w-full h-full p-4 bg-white">
+								<img class="object-scale-down w-full h-full" src="dist/img/logo.png" alt="logo" />
 							</div>
-							<div class="bg-primary aspect-video w-64 absolute -top-6 -left-6 z-0"></div>
+							<div class="bg-primary aspect-video -top-6 -left-6 absolute z-0 w-64"></div>
 						</div>
 					</div>
-					<div class="col-span-6 md:col-span-3 self-center">
-						<div class="px-6 md:px-12">
+					<div class="md:col-span-3 self-center col-span-6">
+						<div class="md:px-12 px-6">
 							<div class="flex flex-col w-full gap-8">
-								<h2 class="text-primary text-2xl font-bold md:text-3xl lg:text-4xl">عن الهيئة السعودية لتنظيم الكهرباء</h2>
-								<p class="md:text-lg text-base leading-loose text-justify tracking-wider font-semibold">
+								<h2 class="text-primary md:text-3xl lg:text-4xl text-2xl font-bold">عن الهيئة السعودية لتنظيم الكهرباء</h2>
+								<p class="md:text-lg text-base font-semibold leading-loose tracking-wider text-justify">
 									أنشئت الهيئة بقرار مجلس الوزراء رقم (٢٣٦) في ١٤٢٢/٨/٢٧هـ، الموافق ٢٠٠١/١١/١٢م وتقوم الهيئة بمهمة تنظيم نشاط الكهرباء ويشمل ذلك توليد الكهرباء والإنتاج المزدوج من أي مصدر من مصادر الطاقة، ونقل الكهرباء، وتوزيعها، والمتاجرة
 									بها، وبيعها بالتجزئة، ونشاط المشتري الرئيس، وتبريد المناطق. وينص التنظيم على أن تقوم الهيئة بتنظيم الخدمات والإشراف عليها في نطاق اختصاصها ومراقبة أدائها، والتنسيق فيما بين المؤسسات والجهات ذات العلاقة وبين الأشخاص المرخص
 									لهم، لوضع الإطار التنظيمي والإجرائي اللازم لضمان مزاولة أنشطة الخدمات عند مستويات ذات جودة وموثوقية عالية وتوفيرها للمستهلك بأسعار تنافسية معقولة تحقق العدالة بين المستهلكين.
@@ -88,7 +88,7 @@
 								<a
 									target="_blank"
 									href="https://sera.gov.sa/ar/"
-									class="inline-flex justify-center hover:text-primary-50 items-center py-3 px-5 text-base font-medium text-center text-primary rounded-lg border border-primary hover:bg-primary focus:ring-4 focus:ring-primary-400">
+									class="hover:text-primary-50 text-primary border-primary hover:bg-primary focus:ring-4 focus:ring-primary-400 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border rounded-lg">
 									اعرف المزيد
 								</a>
 							</div>
@@ -99,12 +99,12 @@
 		</section>
 
 		<section class="bg-gray-50">
-			<div class="container overflow-hidden mx-auto py-12 md:py-16 px-2">
-				<div class="flex flex-col gap-12 md:gap-16">
-					<h2 class="text-primary text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-center">أهداف الهاكاثون</h2>
+			<div class="md:py-16 container px-2 py-12 mx-auto overflow-hidden">
+				<div class="md:gap-16 flex flex-col gap-12">
+					<h2 class="text-primary md:text-4xl lg:text-5xl text-3xl font-bold tracking-wide text-center">أهداف الهاكاثون</h2>
 
 					<div class="grid grid-cols-6 gap-6">
-						<div class="col-span-6 lg:col-span-2 md:col-span-3">
+						<div class="lg:col-span-2 md:col-span-3 col-span-6">
 							<div class="bg-gradient-to-tr from-primary-950 to-primary-700 lg:gap-6 flex flex-col gap-2 p-4 rounded-md shadow">
 								<div class="flex items-center gap-4">
 									<div class="lg:w-16 lg:h-16 flex items-center justify-center flex-shrink-0 w-12 h-12 bg-white rounded-md shadow">
@@ -115,7 +115,7 @@
 								<p class="text font-light leading-loose tracking-wide text-white">تمكين وتعزيز الاستثمار في قطاع الكهرباء.</p>
 							</div>
 						</div>
-						<div class="col-span-6 lg:col-span-2 md:col-span-3">
+						<div class="lg:col-span-2 md:col-span-3 col-span-6">
 							<div class="bg-gradient-to-tr from-primary-950 to-primary-700 lg:gap-6 flex flex-col gap-2 p-4 rounded-md shadow">
 								<div class="flex items-center gap-4">
 									<div class="lg:w-16 lg:h-16 flex items-center justify-center flex-shrink-0 w-12 h-12 bg-white rounded-md shadow">
@@ -126,7 +126,7 @@
 								<p class="text font-light leading-loose tracking-wide text-white">ابتكار حلول مستدامة للتحديات في قطاع الكهرباء وإبراز دور أفراد المجتمع في حل التحديات.</p>
 							</div>
 						</div>
-						<div class="col-span-6 lg:col-span-2 md:col-span-3">
+						<div class="lg:col-span-2 md:col-span-3 col-span-6">
 							<div class="bg-gradient-to-tr from-primary-950 to-primary-700 lg:gap-6 flex flex-col gap-2 p-4 rounded-md shadow">
 								<div class="flex items-center gap-4">
 									<div class="lg:w-16 lg:h-16 flex items-center justify-center flex-shrink-0 w-12 h-12 bg-white rounded-md shadow">
@@ -143,108 +143,108 @@
 		</section>
 
 		<section class="bg-gradient-to-t from-primary to-primary-950">
-			<div class="container overflow-hidden mx-auto py-12 md:py-16 px-2">
-				<div class="flex flex-col gap-12 md:gap-16">
-					<h2 class="text-primary-50 text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-center">المسارات والتحديات</h2>
+			<div class="md:py-16 container px-2 py-12 mx-auto overflow-hidden">
+				<div class="md:gap-16 flex flex-col gap-12">
+					<h2 class="text-primary-50 md:text-4xl lg:text-5xl text-3xl font-bold tracking-wide text-center">المسارات والتحديات</h2>
 					<div class="grid grid-cols-6 gap-6">
-						<div class="col-span-6 md:col-span-3 lg:col-span-2">
-							<div class="flex group/track bg-white shadow flex-col w-full gap-4 border border-primary-200 rounded-md px-2 pt-4 pb-2">
-								<h3 class="text-primary text-2xl font-bold px-2 tracking-wide">تعزيز رضا المستهلك</h3>
+						<div class="md:col-span-3 lg:col-span-2 col-span-6">
+							<div class="group/track border-primary-200 flex flex-col w-full gap-4 px-2 pt-4 pb-2 bg-white border rounded-md shadow">
+								<h3 class="text-primary px-2 text-2xl font-bold tracking-wide">تعزيز رضا المستهلك</h3>
 								<div class="flex flex-col w-full gap-2">
-									<div class="flex group gap-2 border shadow cursor-pointer bg-gray-50 hover:bg-primary border-gray-100 p-2 rounded-md">
-										<div class="flex w-14 bg-primary group-hover:bg-primary-50 shadow h-14 flex-shrink-0 items-center justify-center rounded-md">
-											<div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">01</div>
+									<div class="group bg-gray-50 hover:bg-primary flex gap-2 p-2 border border-gray-100 rounded-md shadow cursor-pointer">
+										<div class="w-14 bg-primary group-hover:bg-primary-50 h-14 flex items-center justify-center flex-shrink-0 rounded-md shadow">
+											<div class="text-primary-50 group-hover:text-primary flex text-xl font-bold">01</div>
 										</div>
 										<div class="flex">
-											<p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">إيجاد حلول لإدارة الطاقة الشخصية للمستهلكين</p>
+											<p class="text-primary group-hover:text-primary-50 leading-relaxed tracking-wide text-justify">إيجاد حلول لإدارة الطاقة الشخصية للمستهلكين</p>
 										</div>
 									</div>
-									<div class="flex group gap-2 border shadow cursor-pointer bg-gray-50 hover:bg-primary border-gray-100 p-2 rounded-md">
-										<div class="flex w-14 bg-primary group-hover:bg-primary-50 shadow h-14 flex-shrink-0 items-center justify-center rounded-md">
-											<div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">02</div>
+									<div class="group bg-gray-50 hover:bg-primary flex gap-2 p-2 border border-gray-100 rounded-md shadow cursor-pointer">
+										<div class="w-14 bg-primary group-hover:bg-primary-50 h-14 flex items-center justify-center flex-shrink-0 rounded-md shadow">
+											<div class="text-primary-50 group-hover:text-primary flex text-xl font-bold">02</div>
 										</div>
 										<div class="flex">
-											<p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">تطوير منصات لتعزيز التفاعل والرضا لدى العملاء</p>
+											<p class="text-primary group-hover:text-primary-50 leading-relaxed tracking-wide text-justify">تطوير منصات لتعزيز التفاعل والرضا لدى العملاء</p>
 										</div>
 									</div>
-									<div class="flex group gap-2 border shadow cursor-pointer bg-gray-50 hover:bg-primary border-gray-100 p-2 rounded-md">
-										<div class="flex w-14 bg-primary group-hover:bg-primary-50 shadow h-14 flex-shrink-0 items-center justify-center rounded-md">
-											<div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">03</div>
+									<div class="group bg-gray-50 hover:bg-primary flex gap-2 p-2 border border-gray-100 rounded-md shadow cursor-pointer">
+										<div class="w-14 bg-primary group-hover:bg-primary-50 h-14 flex items-center justify-center flex-shrink-0 rounded-md shadow">
+											<div class="text-primary-50 group-hover:text-primary flex text-xl font-bold">03</div>
 										</div>
 										<div class="flex">
-											<p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">تصميم حلول مبتكرة لفوترة الطاقة وشفافية الاستخدام</p>
+											<p class="text-primary group-hover:text-primary-50 leading-relaxed tracking-wide text-justify">تصميم حلول مبتكرة لفوترة الطاقة وشفافية الاستخدام</p>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 
-						<div class="col-span-6 md:col-span-3 lg:col-span-2">
-							<div class="flex group/track bg-white shadow flex-col w-full gap-4 border border-primary-200 rounded-md px-2 pt-4 pb-2">
-								<h3 class="text-primary text-2xl font-bold px-2 tracking-wide">دمج الطاقة المتجددة</h3>
+						<div class="md:col-span-3 lg:col-span-2 col-span-6">
+							<div class="group/track border-primary-200 flex flex-col w-full gap-4 px-2 pt-4 pb-2 bg-white border rounded-md shadow">
+								<h3 class="text-primary px-2 text-2xl font-bold tracking-wide">دمج الطاقة المتجددة</h3>
 								<div class="flex flex-col w-full gap-2">
-									<div class="flex group gap-2 border shadow cursor-pointer bg-gray-50 hover:bg-primary border-gray-100 p-2 rounded-md">
-										<div class="flex w-14 bg-primary group-hover:bg-primary-50 shadow h-14 flex-shrink-0 items-center justify-center rounded-md">
-											<div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">01</div>
+									<div class="group bg-gray-50 hover:bg-primary flex gap-2 p-2 border border-gray-100 rounded-md shadow cursor-pointer">
+										<div class="w-14 bg-primary group-hover:bg-primary-50 h-14 flex items-center justify-center flex-shrink-0 rounded-md shadow">
+											<div class="text-primary-50 group-hover:text-primary flex text-xl font-bold">01</div>
 										</div>
 										<div class="flex">
-											<p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">دمج مصادر الطاقة المتجددة بكفاءة في شبكة الطاقة الحالية</p>
+											<p class="text-primary group-hover:text-primary-50 leading-relaxed tracking-wide text-justify">دمج مصادر الطاقة المتجددة بكفاءة في شبكة الطاقة الحالية</p>
 										</div>
 									</div>
-									<div class="flex group gap-2 border shadow cursor-pointer bg-gray-50 hover:bg-primary border-gray-100 p-2 rounded-md">
-										<div class="flex w-14 bg-primary group-hover:bg-primary-50 shadow h-14 flex-shrink-0 items-center justify-center rounded-md">
-											<div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">02</div>
+									<div class="group bg-gray-50 hover:bg-primary flex gap-2 p-2 border border-gray-100 rounded-md shadow cursor-pointer">
+										<div class="w-14 bg-primary group-hover:bg-primary-50 h-14 flex items-center justify-center flex-shrink-0 rounded-md shadow">
+											<div class="text-primary-50 group-hover:text-primary flex text-xl font-bold">02</div>
 										</div>
 										<div class="flex">
-											<p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">تطوير تقنيات تخزين الطاقة لإدارة التقطع في مصادر الطاقة المتجددة</p>
+											<p class="text-primary group-hover:text-primary-50 leading-relaxed tracking-wide text-justify">تطوير تقنيات تخزين الطاقة لإدارة التقطع في مصادر الطاقة المتجددة</p>
 										</div>
 									</div>
-									<div class="flex group gap-2 border shadow cursor-pointer bg-gray-50 hover:bg-primary border-gray-100 p-2 rounded-md">
-										<div class="flex w-14 bg-primary group-hover:bg-primary-50 shadow h-14 flex-shrink-0 items-center justify-center rounded-md">
-											<div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">03</div>
+									<div class="group bg-gray-50 hover:bg-primary flex gap-2 p-2 border border-gray-100 rounded-md shadow cursor-pointer">
+										<div class="w-14 bg-primary group-hover:bg-primary-50 h-14 flex items-center justify-center flex-shrink-0 rounded-md shadow">
+											<div class="text-primary-50 group-hover:text-primary flex text-xl font-bold">03</div>
 										</div>
 										<div class="flex">
-											<p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">تحقيق التوازن الأمثل بين الأحمال باستخدام مزيج من المصادر المتجددة وغير المتجددة</p>
+											<p class="text-primary group-hover:text-primary-50 leading-relaxed tracking-wide text-justify">تحقيق التوازن الأمثل بين الأحمال باستخدام مزيج من المصادر المتجددة وغير المتجددة</p>
 										</div>
 									</div>
-									<div class="flex group gap-2 border shadow cursor-pointer bg-gray-50 hover:bg-primary border-gray-100 p-2 rounded-md">
-										<div class="flex w-14 bg-primary group-hover:bg-primary-50 shadow h-14 flex-shrink-0 items-center justify-center rounded-md">
-											<div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">04</div>
+									<div class="group bg-gray-50 hover:bg-primary flex gap-2 p-2 border border-gray-100 rounded-md shadow cursor-pointer">
+										<div class="w-14 bg-primary group-hover:bg-primary-50 h-14 flex items-center justify-center flex-shrink-0 rounded-md shadow">
+											<div class="text-primary-50 group-hover:text-primary flex text-xl font-bold">04</div>
 										</div>
 										<div class="flex">
-											<p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">حلول ابتكارية للمولدات الاحتياطية</p>
+											<p class="text-primary group-hover:text-primary-50 leading-relaxed tracking-wide text-justify">حلول ابتكارية للمولدات الاحتياطية</p>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 
-						<div class="col-span-6 md:col-span-3 lg:col-span-2">
-							<div class="flex group/track bg-white shadow flex-col w-full gap-4 border border-primary-200 rounded-md px-2 pt-4 pb-2">
-								<h3 class="text-primary text-2xl font-bold px-2 tracking-wide">إدارة البيانات الضخمة والتحليل</h3>
+						<div class="md:col-span-3 lg:col-span-2 col-span-6">
+							<div class="group/track border-primary-200 flex flex-col w-full gap-4 px-2 pt-4 pb-2 bg-white border rounded-md shadow">
+								<h3 class="text-primary px-2 text-2xl font-bold tracking-wide">إدارة البيانات الضخمة والتحليل</h3>
 								<div class="flex flex-col w-full gap-2">
-									<div class="flex group gap-2 border shadow cursor-pointer bg-gray-50 hover:bg-primary border-gray-100 p-2 rounded-md">
-										<div class="flex w-14 bg-primary group-hover:bg-primary-50 shadow h-14 flex-shrink-0 items-center justify-center rounded-md">
-											<div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">01</div>
+									<div class="group bg-gray-50 hover:bg-primary flex gap-2 p-2 border border-gray-100 rounded-md shadow cursor-pointer">
+										<div class="w-14 bg-primary group-hover:bg-primary-50 h-14 flex items-center justify-center flex-shrink-0 rounded-md shadow">
+											<div class="text-primary-50 group-hover:text-primary flex text-xl font-bold">01</div>
 										</div>
 										<div class="flex">
-											<p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">أدوات لتحليل البيانات الكبيرة من الشبكات الكهربائية</p>
+											<p class="text-primary group-hover:text-primary-50 leading-relaxed tracking-wide text-justify">أدوات لتحليل البيانات الكبيرة من الشبكات الكهربائية</p>
 										</div>
 									</div>
-									<div class="flex group gap-2 border shadow cursor-pointer bg-gray-50 hover:bg-primary border-gray-100 p-2 rounded-md">
-										<div class="flex w-14 bg-primary group-hover:bg-primary-50 shadow h-14 flex-shrink-0 items-center justify-center rounded-md">
-											<div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">02</div>
+									<div class="group bg-gray-50 hover:bg-primary flex gap-2 p-2 border border-gray-100 rounded-md shadow cursor-pointer">
+										<div class="w-14 bg-primary group-hover:bg-primary-50 h-14 flex items-center justify-center flex-shrink-0 rounded-md shadow">
+											<div class="text-primary-50 group-hover:text-primary flex text-xl font-bold">02</div>
 										</div>
 										<div class="flex">
-											<p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">تقنيات لتجميع وتخزين البيانات بشكل آمن وفعال</p>
+											<p class="text-primary group-hover:text-primary-50 leading-relaxed tracking-wide text-justify">تقنيات لتجميع وتخزين البيانات بشكل آمن وفعال</p>
 										</div>
 									</div>
-									<div class="flex group gap-2 border shadow cursor-pointer bg-gray-50 hover:bg-primary border-gray-100 p-2 rounded-md">
-										<div class="flex w-14 bg-primary group-hover:bg-primary-50 shadow h-14 flex-shrink-0 items-center justify-center rounded-md">
-											<div class="flex text-primary-50 group-hover:text-primary font-bold text-xl">03</div>
+									<div class="group bg-gray-50 hover:bg-primary flex gap-2 p-2 border border-gray-100 rounded-md shadow cursor-pointer">
+										<div class="w-14 bg-primary group-hover:bg-primary-50 h-14 flex items-center justify-center flex-shrink-0 rounded-md shadow">
+											<div class="text-primary-50 group-hover:text-primary flex text-xl font-bold">03</div>
 										</div>
 										<div class="flex">
-											<p class="text-primary leading-relaxed tracking-wide text-justify group-hover:text-primary-50">تطوير نظم لتحليل البيانات التنبؤية لتحسين أداء الشبكات</p>
+											<p class="text-primary group-hover:text-primary-50 leading-relaxed tracking-wide text-justify">تطوير نظم لتحليل البيانات التنبؤية لتحسين أداء الشبكات</p>
 										</div>
 									</div>
 								</div>
@@ -256,33 +256,33 @@
 		</section>
 
 		<section class="bg-white">
-			<div class="container overflow-hidden mx-auto px-4 py-12 md:py-16">
-				<div class="flex flex-col gap-12 md:gap-16">
-					<h2 class="text-primary text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-center">الفئات المستهدفة</h2>
+			<div class="md:py-16 container px-4 py-12 mx-auto overflow-hidden">
+				<div class="md:gap-16 flex flex-col gap-12">
+					<h2 class="text-primary md:text-4xl lg:text-5xl text-3xl font-bold tracking-wide text-center">الفئات المستهدفة</h2>
 					<div class="grid grid-cols-6 gap-6">
-						<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-							<div class="flex hover:bg-primary-950 bg-primary flex-col shadow items-center w-full gap-4 rounded-md px-4 py-16">
+						<div class="sm:col-span-3 lg:col-span-2 col-span-6">
+							<div class="hover:bg-primary-950 bg-primary flex flex-col items-center w-full gap-4 px-4 py-16 rounded-md shadow">
 								<img class="w-16 h-16" src="dist/img/targets-1.png" alt="targets-1" />
-								<div class="flex items-center justify-center h-20 w-full">
-									<h3 class="text-white text-xl text-center leading-loose">التقنيون والمهندسون والمتخصصون في قطاع الكهرباء</h3>
+								<div class="flex items-center justify-center w-full h-20">
+									<h3 class="text-xl leading-loose text-center text-white">التقنيون والمهندسون والمتخصصون في قطاع الكهرباء</h3>
 								</div>
 							</div>
 						</div>
 
-						<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-							<div class="flex hover:bg-primary-950 bg-primary flex-col shadow items-center w-full gap-4 rounded-md px-4 py-16">
+						<div class="sm:col-span-3 lg:col-span-2 col-span-6">
+							<div class="hover:bg-primary-950 bg-primary flex flex-col items-center w-full gap-4 px-4 py-16 rounded-md shadow">
 								<img class="w-16 h-16" src="dist/img/targets-2.png" alt="targets-2" />
-								<div class="flex items-center justify-center h-20 w-full">
-									<h3 class="text-white text-xl text-center leading-loose">رواد الأعمال ومطورو الأعمال</h3>
+								<div class="flex items-center justify-center w-full h-20">
+									<h3 class="text-xl leading-loose text-center text-white">رواد الأعمال ومطورو الأعمال</h3>
 								</div>
 							</div>
 						</div>
 
-						<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-							<div class="flex hover:bg-primary-950 bg-primary flex-col shadow items-center w-full gap-4 rounded-md px-4 py-16">
+						<div class="sm:col-span-3 lg:col-span-2 col-span-6">
+							<div class="hover:bg-primary-950 bg-primary flex flex-col items-center w-full gap-4 px-4 py-16 rounded-md shadow">
 								<img class="w-16 h-16" src="dist/img/targets-3.png" alt="targets-3" />
-								<div class="flex items-center justify-center h-20 w-full">
-									<h3 class="text-white text-xl text-center leading-loose">الباحثون والطلاب الجامعيين</h3>
+								<div class="flex items-center justify-center w-full h-20">
+									<h3 class="text-xl leading-loose text-center text-white">الباحثون والطلاب الجامعيين</h3>
 								</div>
 							</div>
 						</div>
@@ -292,38 +292,38 @@
 		</section>
 
 		<section class="bg-gray-50">
-			<div class="container overflow-hidden mx-auto py-12 md:py-16 px-2">
-				<div class="flex flex-col gap-12 md:gap-16">
-					<h2 class="text-primary text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-center">معايير التقييم</h2>
-					<div class="grid grid-cols-6 gap-6 md:divide-x-reverse md:divide-x">
-						<div class="col-span-6 md:col-span-2">
-							<div class="flex gap-6 items-center justify-center group">
+			<div class="md:py-16 container px-2 py-12 mx-auto overflow-hidden">
+				<div class="md:gap-16 flex flex-col gap-12">
+					<h2 class="text-primary md:text-4xl lg:text-5xl text-3xl font-bold tracking-wide text-center">معايير التقييم</h2>
+					<div class="md:divide-x-reverse md:divide-x grid grid-cols-6 gap-6">
+						<div class="md:col-span-2 col-span-6">
+							<div class="group flex items-center justify-center gap-6">
 								<div class="aspect-square flex items-center justify-center p-4">
-									<div class="w-16 h-16 rounded-full bg-primary-800 flex items-center group-hover:ring-primary-500 group-hover:bg-primary-950 justify-center ring-8 ring-primary-400">
-										<span class="text-white text-2xl font-bold">1</span>
+									<div class="bg-primary-800 group-hover:ring-primary-500 group-hover:bg-primary-950 ring-8 ring-primary-400 flex items-center justify-center w-16 h-16 rounded-full">
+										<span class="text-2xl font-bold text-white">1</span>
 									</div>
 								</div>
-								<h3 class="text-xl font-bold text-gray-600 w-32 text-center md:w-auto md:text-start">الابتكار</h3>
+								<h3 class="md:w-auto md:text-start w-32 text-xl font-bold text-center text-gray-600">الابتكار</h3>
 							</div>
 						</div>
-						<div class="col-span-6 md:col-span-2">
-							<div class="flex gap-6 items-center justify-center group">
+						<div class="md:col-span-2 col-span-6">
+							<div class="group flex items-center justify-center gap-6">
 								<div class="aspect-square flex items-center justify-center p-4">
-									<div class="w-16 h-16 rounded-full bg-primary-800 flex items-center group-hover:ring-primary-500 group-hover:bg-primary-950 justify-center ring-8 ring-primary-400">
-										<span class="text-white text-2xl font-bold">2</span>
+									<div class="bg-primary-800 group-hover:ring-primary-500 group-hover:bg-primary-950 ring-8 ring-primary-400 flex items-center justify-center w-16 h-16 rounded-full">
+										<span class="text-2xl font-bold text-white">2</span>
 									</div>
 								</div>
-								<h3 class="text-xl font-bold text-gray-600 w-32 text-center md:w-auto md:text-start">جدوى الفكرة</h3>
+								<h3 class="md:w-auto md:text-start w-32 text-xl font-bold text-center text-gray-600">جدوى الفكرة</h3>
 							</div>
 						</div>
-						<div class="col-span-6 md:col-span-2">
-							<div class="flex gap-6 items-center justify-center group">
+						<div class="md:col-span-2 col-span-6">
+							<div class="group flex items-center justify-center gap-6">
 								<div class="aspect-square flex items-center justify-center p-4">
-									<div class="w-16 h-16 rounded-full bg-primary-800 flex items-center group-hover:ring-primary-500 group-hover:bg-primary-950 justify-center ring-8 ring-primary-400">
-										<span class="text-white text-2xl font-bold">3</span>
+									<div class="bg-primary-800 group-hover:ring-primary-500 group-hover:bg-primary-950 ring-8 ring-primary-400 flex items-center justify-center w-16 h-16 rounded-full">
+										<span class="text-2xl font-bold text-white">3</span>
 									</div>
 								</div>
-								<h3 class="text-xl font-bold text-gray-600 w-32 text-center md:w-auto md:text-start">فريق العمل</h3>
+								<h3 class="md:w-auto md:text-start w-32 text-xl font-bold text-center text-gray-600">فريق العمل</h3>
 							</div>
 						</div>
 					</div>
@@ -332,13 +332,13 @@
 		</section>
 
 		<section class="bg-white" x-data="{ shown: false }" x-intersect.threshold.100="shown = true">
-			<div class="container overflow-hidden mx-auto py-12 md:py-16 px-2">
-				<div class="flex flex-col gap-12 md:gap-16">
-					<h2 class="text-primary text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-center">رحلة الهاكاثون</h2>
+			<div class="md:py-16 container px-2 py-12 mx-auto overflow-hidden">
+				<div class="md:gap-16 flex flex-col gap-12">
+					<h2 class="text-primary md:text-4xl lg:text-5xl text-3xl font-bold tracking-wide text-center">رحلة الهاكاثون</h2>
 
-					<div class="gap-4 grid grid-cols-6">
+					<div class="grid grid-cols-6 gap-4">
 						<div
-							class="lg:col-span-3 col-span-5 lg:col-start-2 col-start-1"
+							class="md:col-span-3 md:col-start-2 col-span-6"
 							x-show="shown"
 							x-transition:enter="transition transform ease-out duration-300"
 							x-transition:enter-start="opacity-0 translate-x-10"
@@ -347,18 +347,18 @@
 							x-transition:leave-start="opacity-100 translate-x-0"
 							x-transition:leave-end="opacity-0 translate-x-10">
 							<div class="bg-gradient-to-r from-primary-900 to-primary-700 flex items-center gap-6 p-4 rounded-md shadow">
-								<div class="md:w-20 md:h-20 flex flex-col items-center justify-center flex-shrink-0 w-16 h-16 bg-white rounded-md shadow">
+								<div class="flex flex-col items-center justify-center flex-shrink-0 w-20 h-20 bg-white rounded-md shadow">
 									<h3 class="md:text-xl text-lg font-bold text-gray-700">14</h3>
 									<h3 class="font-bold text-gray-700">اغسطس</h3>
 								</div>
-								<div class="flex flex-grow items-center flex-col gap-4">
+								<div class="flex flex-col items-center flex-grow gap-4">
 									<h2 class="lg:text-3xl lg:font-light text-2xl text-white">بداية فترة التسجيل</h2>
 								</div>
 							</div>
 						</div>
 
 						<div
-							class="lg:col-span-3 col-span-5 col-end-7 lg:col-end-6"
+							class="md:col-span-3 md:col-end-6 col-span-6"
 							x-show="shown"
 							x-transition:enter="transition transform ease-out duration-300 delay-150"
 							x-transition:enter-start="opacity-0 -translate-x-10"
@@ -367,10 +367,10 @@
 							x-transition:leave-start="opacity-100 translate-x-0"
 							x-transition:leave-end="opacity-0 -translate-x-10">
 							<div class="bg-gradient-to-l from-primary-900 to-primary-700 flex items-center justify-end gap-6 p-4 rounded-md shadow">
-								<div class="flex flex-grow items-center flex-col gap-4">
+								<div class="flex flex-col items-center flex-grow gap-4">
 									<h2 class="lg:text-3xl lg:font-light text-2xl text-left text-white">نهاية فترة التسجيل</h2>
 								</div>
-								<div class="md:w-20 md:h-20 flex flex-col items-center justify-center flex-shrink-0 w-16 h-16 bg-white rounded-md shadow">
+								<div class="flex flex-col items-center justify-center flex-shrink-0 w-20 h-20 bg-white rounded-md shadow">
 									<h3 class="md:text-xl text-lg font-bold text-gray-700">25</h3>
 									<h3 class="font-bold text-gray-700">اغسطس</h3>
 								</div>
@@ -378,7 +378,7 @@
 						</div>
 
 						<div
-							class="lg:col-span-3 col-span-5 lg:col-start-2 col-start-1"
+							class="md:col-span-3 md:col-start-2 col-span-6"
 							x-show="shown"
 							x-transition:enter="transition transform ease-out duration-300 delay-300"
 							x-transition:enter-start="opacity-0 translate-x-10"
@@ -387,18 +387,18 @@
 							x-transition:leave-start="opacity-100 translate-x-0"
 							x-transition:leave-end="opacity-0 translate-x-10">
 							<div class="bg-gradient-to-r from-primary-900 to-primary-700 flex items-center gap-6 p-4 rounded-md shadow">
-								<div class="md:w-20 md:h-20 flex flex-col items-center justify-center flex-shrink-0 w-16 h-16 bg-white rounded-md shadow">
+								<div class="flex flex-col items-center justify-center flex-shrink-0 w-20 h-20 bg-white rounded-md shadow">
 									<h3 class="md:text-xl text-lg font-bold text-gray-700">25 - 27</h3>
 									<h3 class="font-bold text-gray-700">اغسطس</h3>
 								</div>
-								<div class="flex flex-grow items-center flex-col gap-4">
+								<div class="flex flex-col items-center flex-grow gap-4">
 									<h2 class="lg:text-3xl lg:font-light text-2xl text-white">الفرز والترشيح</h2>
 								</div>
 							</div>
 						</div>
 
 						<div
-							class="lg:col-span-3 col-span-5 col-end-7 lg:col-end-6"
+							class="md:col-span-3 md:col-end-6 col-span-6"
 							x-show="shown"
 							x-transition:enter="transition transform ease-out duration-300 delay-[450ms]"
 							x-transition:enter-start="opacity-0 -translate-x-10"
@@ -407,10 +407,10 @@
 							x-transition:leave-start="opacity-100 translate-x-0"
 							x-transition:leave-end="opacity-0 -translate-x-10">
 							<div class="bg-gradient-to-l from-primary-900 to-primary-700 flex items-center justify-end gap-6 p-4 rounded-md shadow">
-								<div class="flex flex-grow items-center flex-col gap-4">
+								<div class="flex flex-col items-center flex-grow gap-4">
 									<h2 class="lg:text-3xl lg:font-light text-2xl text-left text-white">إقامة الهاكاثون</h2>
 								</div>
-								<div class="md:w-20 md:h-20 flex flex-col items-center justify-center flex-shrink-0 w-16 h-16 bg-white rounded-md shadow">
+								<div class="flex flex-col items-center justify-center flex-shrink-0 w-20 h-20 bg-white rounded-md shadow">
 									<h3 class="md:text-xl text-lg font-bold text-gray-700">29 - 31</h3>
 									<h3 class="font-bold text-gray-700">اغسطس</h3>
 								</div>
@@ -418,7 +418,7 @@
 						</div>
 
 						<div
-							class="lg:col-span-3 col-span-5 lg:col-start-2 col-start-1"
+							class="md:col-span-3 md:col-start-2 col-span-6"
 							x-show="shown"
 							x-transition:enter="transition transform ease-out duration-300 delay-[600ms]"
 							x-transition:enter-start="opacity-0 translate-x-10"
@@ -427,11 +427,11 @@
 							x-transition:leave-start="opacity-100 translate-x-0"
 							x-transition:leave-end="opacity-0 translate-x-10">
 							<div class="bg-gradient-to-r from-primary-900 to-primary-700 flex items-center gap-6 p-4 rounded-md shadow">
-								<div class="md:w-20 md:h-20 flex flex-col items-center justify-center flex-shrink-0 w-16 h-16 bg-white rounded-md shadow">
+								<div class="flex flex-col items-center justify-center flex-shrink-0 w-20 h-20 bg-white rounded-md shadow">
 									<h3 class="md:text-xl text-lg font-bold text-gray-700">31</h3>
 									<h3 class="font-bold text-gray-700">اغسطس</h3>
 								</div>
-								<div class="flex flex-grow items-center flex-col gap-4">
+								<div class="flex flex-col items-center flex-grow gap-4">
 									<h2 class="lg:text-3xl lg:font-light text-2xl text-white">التحكيم وتكريم الفائزين</h2>
 								</div>
 							</div>
@@ -442,13 +442,13 @@
 		</section>
 
 		<section class="bg-gradient-to-t from-primary to-primary-950" x-data="{ shown: false }" x-intersect.threshold.100="shown = true">
-			<div class="container overflow-hidden mx-auto py-12 md:py-16 px-2">
-				<div class="flex flex-col gap-12 md:gap-16">
-					<h2 class="text-primary-50 text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-center">الجوائز</h2>
+			<div class="md:py-16 container px-2 py-12 mx-auto overflow-hidden">
+				<div class="md:gap-16 flex flex-col gap-12">
+					<h2 class="text-primary-50 md:text-4xl lg:text-5xl text-3xl font-bold tracking-wide text-center">الجوائز</h2>
 
 					<div class="grid grid-cols-6 gap-6">
 						<div
-							class="md:pt-6 col-span-6 md:col-span-2 transition-all duration-1000"
+							class="md:pt-6 md:col-span-2 col-span-6 transition-all duration-1000"
 							x-show="shown"
 							x-transition:enter="transition transform ease-out duration-300 delay-300"
 							x-transition:enter-start="opacity-0 translate-y-10"
@@ -456,19 +456,19 @@
 							x-transition:leave="transition transform ease-in duration-300"
 							x-transition:leave-start="opacity-100 translate-y-0"
 							x-transition:leave-end="opacity-0 translate-y-10">
-							<div class="bg-gradient-to-tr from-primary-200 to-white gap-6 flex items-center flex-col p-4 rounded-md shadow">
+							<div class="bg-gradient-to-tr from-primary-200 to-white flex flex-col items-center gap-6 p-4 rounded-md shadow">
 								<div class="flex flex-col items-center gap-4">
-									<div class="w-16 h-16 flex items-center justify-center flex-shrink-0 bg-primary rounded-md shadow">
-										<h3 class="lg:text-4xl text-2xl font-bold text-primary-50">2</h3>
+									<div class="bg-primary flex items-center justify-center flex-shrink-0 w-16 h-16 rounded-md shadow">
+										<h3 class="lg:text-4xl text-primary-50 text-2xl font-bold">2</h3>
 									</div>
-									<h2 class="text-3xl font-bold text-primary">المركز الثاني</h2>
+									<h2 class="text-primary text-3xl font-bold">المركز الثاني</h2>
 								</div>
-								<h2 class="text-6xl font-bold text-primary">30,000</h2>
+								<h2 class="text-primary text-6xl font-bold">30,000</h2>
 							</div>
 						</div>
 
 						<div
-							class="md:pt-0 col-span-6 md:col-span-2 md:order-none -order-1 transition-all duration-1000"
+							class="md:pt-0 md:col-span-2 md:order-none -order-1 col-span-6 transition-all duration-1000"
 							x-show="shown"
 							x-transition:enter="transition transform ease-out duration-300"
 							x-transition:enter-start="opacity-0 translate-y-10"
@@ -476,19 +476,19 @@
 							x-transition:leave="transition transform ease-in duration-300"
 							x-transition:leave-start="opacity-100 translate-y-0"
 							x-transition:leave-end="opacity-0 translate-y-10">
-							<div class="bg-gradient-to-tr from-primary-200 to-white flex items-center flex-col gap-6 p-4 rounded-md shadow">
+							<div class="bg-gradient-to-tr from-primary-200 to-white flex flex-col items-center gap-6 p-4 rounded-md shadow">
 								<div class="flex flex-col items-center gap-4">
-									<div class="w-16 h-16 flex items-center justify-center flex-shrink-0 bg-primary rounded-md shadow">
-										<h3 class="lg:text-4xl text-2xl font-bold text-primary-50">1</h3>
+									<div class="bg-primary flex items-center justify-center flex-shrink-0 w-16 h-16 rounded-md shadow">
+										<h3 class="lg:text-4xl text-primary-50 text-2xl font-bold">1</h3>
 									</div>
-									<h2 class="text-3xl font-bold text-primary">المركز الاول</h2>
+									<h2 class="text-primary text-3xl font-bold">المركز الاول</h2>
 								</div>
-								<h2 class="text-6xl font-bold text-primary">50,000</h2>
+								<h2 class="text-primary text-6xl font-bold">50,000</h2>
 							</div>
 						</div>
 
 						<div
-							class="md:pt-12 col-span-6 md:col-span-2"
+							class="md:pt-12 md:col-span-2 col-span-6"
 							x-show="shown"
 							x-transition:enter="transition transform ease-out duration-300 delay-[600ms]"
 							x-transition:enter-start="opacity-0 translate-y-10"
@@ -496,14 +496,14 @@
 							x-transition:leave="transition transform ease-in duration-300"
 							x-transition:leave-start="opacity-100 translate-y-0"
 							x-transition:leave-end="opacity-0 translate-y-10">
-							<div class="bg-gradient-to-tr from-primary-200 to-white flex items-center flex-col gap-6 p-4 rounded-md shadow">
+							<div class="bg-gradient-to-tr from-primary-200 to-white flex flex-col items-center gap-6 p-4 rounded-md shadow">
 								<div class="flex flex-col items-center gap-4">
-									<div class="w-16 h-16 flex items-center justify-center flex-shrink-0 bg-primary rounded-md shadow">
-										<h3 class="lg:text-4xl text-2xl font-bold text-primary-50">3</h3>
+									<div class="bg-primary flex items-center justify-center flex-shrink-0 w-16 h-16 rounded-md shadow">
+										<h3 class="lg:text-4xl text-primary-50 text-2xl font-bold">3</h3>
 									</div>
-									<h2 class="text-3xl font-bold text-primary">المركز الثالث</h2>
+									<h2 class="text-primary text-3xl font-bold">المركز الثالث</h2>
 								</div>
-								<h2 class="text-6xl font-bold text-primary">20,000</h2>
+								<h2 class="text-primary text-6xl font-bold">20,000</h2>
 							</div>
 						</div>
 					</div>
@@ -512,48 +512,48 @@
 		</section>
 
 		<section class="bg-gray-50">
-			<div class="container overflow-hidden mx-auto py-12 md:py-16 px-2">
-				<div class="flex flex-col gap-12 md:gap-16">
-					<h2 class="text-primary text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-center">الشركاء</h2>
-					<div class="embla w-full mx-auto bg-primary-200 p-4 rounded-md shadow">
+			<div class="md:py-16 container px-2 py-12 mx-auto overflow-hidden">
+				<div class="md:gap-16 flex flex-col gap-12">
+					<h2 class="text-primary md:text-4xl lg:text-5xl text-3xl font-bold tracking-wide text-center">الشركاء</h2>
+					<div class="embla bg-primary-200 w-full p-4 mx-auto rounded-md shadow">
 						<div class="embla__viewport overflow-hidden">
-							<div class="embla__container flex gap-4 ps-4">
-								<div class="embla__slide w-64 h-64 flex items-center justify-center flex-shrink-0 border border-primary-300 rounded-md">
+							<div class="embla__container ps-4 flex gap-4">
+								<div class="embla__slide border-primary-300 flex items-center justify-center flex-shrink-0 w-64 h-64 border rounded-md">
 									<div class="embla__slide__number">
 										<span>1</span>
 									</div>
 								</div>
-								<div class="embla__slide w-64 h-64 flex items-center justify-center flex-shrink-0 border border-primary-300 rounded-md">
+								<div class="embla__slide border-primary-300 flex items-center justify-center flex-shrink-0 w-64 h-64 border rounded-md">
 									<div class="embla__slide__number">
 										<span>2</span>
 									</div>
 								</div>
-								<div class="embla__slide w-64 h-64 flex items-center justify-center flex-shrink-0 border border-primary-300 rounded-md">
+								<div class="embla__slide border-primary-300 flex items-center justify-center flex-shrink-0 w-64 h-64 border rounded-md">
 									<div class="embla__slide__number">
 										<span>3</span>
 									</div>
 								</div>
-								<div class="embla__slide w-64 h-64 flex items-center justify-center flex-shrink-0 border border-primary-300 rounded-md">
+								<div class="embla__slide border-primary-300 flex items-center justify-center flex-shrink-0 w-64 h-64 border rounded-md">
 									<div class="embla__slide__number">
 										<span>4</span>
 									</div>
 								</div>
-								<div class="embla__slide w-64 h-64 flex items-center justify-center flex-shrink-0 border border-primary-300 rounded-md">
+								<div class="embla__slide border-primary-300 flex items-center justify-center flex-shrink-0 w-64 h-64 border rounded-md">
 									<div class="embla__slide__number">
 										<span>5</span>
 									</div>
 								</div>
-								<div class="embla__slide w-64 h-64 flex items-center justify-center flex-shrink-0 border border-primary-300 rounded-md">
+								<div class="embla__slide border-primary-300 flex items-center justify-center flex-shrink-0 w-64 h-64 border rounded-md">
 									<div class="embla__slide__number">
 										<span>6</span>
 									</div>
 								</div>
-								<div class="embla__slide w-64 h-64 flex items-center justify-center flex-shrink-0 border border-primary-300 rounded-md">
+								<div class="embla__slide border-primary-300 flex items-center justify-center flex-shrink-0 w-64 h-64 border rounded-md">
 									<div class="embla__slide__number">
 										<span>7</span>
 									</div>
 								</div>
-								<div class="embla__slide w-64 h-64 flex items-center justify-center flex-shrink-0 border border-primary-300 rounded-md">
+								<div class="embla__slide border-primary-300 flex items-center justify-center flex-shrink-0 w-64 h-64 border rounded-md">
 									<div class="embla__slide__number">
 										<span>8</span>
 									</div>
@@ -585,16 +585,16 @@
 		</section>
 
 		<section class="bg-white">
-			<div class="container overflow-hidden mx-auto px-4 py-12 md:py-16">
-				<div class="flex flex-col gap-12 md:gap-16">
-					<h2 class="text-primary text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-center">الشروط والاحكام</h2>
-					<div class="prose max-w-screen-lg">
+			<div class="md:py-16 container px-4 py-12 mx-auto overflow-hidden">
+				<div class="md:gap-16 flex flex-col gap-12">
+					<h2 class="text-primary md:text-4xl lg:text-5xl text-3xl font-bold tracking-wide text-center">الشروط والاحكام</h2>
+					<div class="max-w-screen-lg prose">
 						<ul class="marker:text-primary">
-							<li class="md:text-lg text-base leading-loose text-gray-600 tracking-wider">أن يكون عـمر المشـارك أكثـر من 18 سنة.</li>
-							<li class="md:text-lg text-base leading-loose text-gray-600 tracking-wider">أن يكون صاحب الفكرة سعودي الجنسية أو مقيماً في المملكة العربية السعوديـة.</li>
-							<li class="md:text-lg text-base leading-loose text-gray-600 tracking-wider">الموافقة على مشاركة البيانات الشخصية الهيئة السعودية لتنظيم الكهرباء وشركاؤها.</li>
-							<li class="md:text-lg text-base leading-loose text-gray-600 tracking-wider">أن تكون الفكرة واقعية وقابلة للتطبيق مع إمكانية تحويلها إلى مشروع استثماري.</li>
-							<li class="md:text-lg text-base leading-loose text-gray-600 tracking-wider">الموافقة على استخدام اسم المشارك وصورته الضوئية للإعلان في وسائل الإعلام المختلفة ووسائل التواصل الاجتماعي من قبل فريق العمل.</li>
+							<li class="md:text-lg text-base leading-loose tracking-wider text-gray-600">أن يكون عـمر المشـارك أكثـر من 18 سنة.</li>
+							<li class="md:text-lg text-base leading-loose tracking-wider text-gray-600">أن يكون صاحب الفكرة سعودي الجنسية أو مقيماً في المملكة العربية السعوديـة.</li>
+							<li class="md:text-lg text-base leading-loose tracking-wider text-gray-600">الموافقة على مشاركة البيانات الشخصية الهيئة السعودية لتنظيم الكهرباء وشركاؤها.</li>
+							<li class="md:text-lg text-base leading-loose tracking-wider text-gray-600">أن تكون الفكرة واقعية وقابلة للتطبيق مع إمكانية تحويلها إلى مشروع استثماري.</li>
+							<li class="md:text-lg text-base leading-loose tracking-wider text-gray-600">الموافقة على استخدام اسم المشارك وصورته الضوئية للإعلان في وسائل الإعلام المختلفة ووسائل التواصل الاجتماعي من قبل فريق العمل.</li>
 						</ul>
 					</div>
 				</div>
@@ -602,25 +602,25 @@
 		</section>
 
 		<section class="bg-gray-50">
-			<div class="container overflow-hidden mx-auto py-12 md:py-16 px-2">
-				<div class="flex flex-col gap-12 md:gap-16">
-					<h2 class="text-primary text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide text-center">الاسئلة الشائعة</h2>
+			<div class="md:py-16 container px-2 py-12 mx-auto overflow-hidden">
+				<div class="md:gap-16 flex flex-col gap-12">
+					<h2 class="text-primary md:text-4xl lg:text-5xl text-3xl font-bold tracking-wide text-center">الاسئلة الشائعة</h2>
 					<div class="flex flex-col gap-4">
-						<div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
-							<div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
-								<h3 class="font-bold text-lg text-primary-50">1. ما هو الهاكاثون؟</h3>
+						<div x-data="{open: false}" class="bg-primary-100 border-primary flex flex-col overflow-hidden border rounded-lg" :class="{'border-primary-950': open}">
+							<div x-on:click="open = !open" class="bg-primary hover:bg-primary-950 p-4 cursor-pointer" :class="{'bg-primary-950': open}">
+								<h3 class="text-primary-50 text-lg font-bold">1. ما هو الهاكاثون؟</h3>
 							</div>
 							<div x-cloak x-collapse x-show="open" class="p-4">
-								<p class="font-bold text-lg">هو منافسة وطنية للمبدعين والمطورين والمهتمين في قطاع الكهرباء، يهدف إلى التعاون لإيجاد حلول إبداعية للتحديات التي تواجه هذا القطاع.</p>
+								<p class="text-lg font-bold">هو منافسة وطنية للمبدعين والمطورين والمهتمين في قطاع الكهرباء، يهدف إلى التعاون لإيجاد حلول إبداعية للتحديات التي تواجه هذا القطاع.</p>
 							</div>
 						</div>
 
-						<div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
-							<div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
-								<h3 class="font-bold text-lg text-primary-50">2. ما هي الهيئة السعودية لتنظيم الكهرباء؟</h3>
+						<div x-data="{open: false}" class="bg-primary-100 border-primary flex flex-col overflow-hidden border rounded-lg" :class="{'border-primary-950': open}">
+							<div x-on:click="open = !open" class="bg-primary hover:bg-primary-950 p-4 cursor-pointer" :class="{'bg-primary-950': open}">
+								<h3 class="text-primary-50 text-lg font-bold">2. ما هي الهيئة السعودية لتنظيم الكهرباء؟</h3>
 							</div>
 							<div x-cloak x-collapse x-show="open" class="p-4">
-								<p class="font-bold text-lg">
+								<p class="text-lg font-bold">
 									تقوم الهيئة بمهمة تنظيم نشاط الكهرباء ويشمل ذلك توليد الكهرباء والإنتاج المزدوج من أي مصدر من مصادر الطاقة، ونقل الكهرباء، وتوزيعها، والمتاجرة بها، وبيعها بالتجزئة، ونشاط المشتري الرئيس، وتبريد المناطق. وينص التنظيم على أن
 									تقوم الهيئة بتنظيم الخدمات والإشراف عليها في نطاق اختصاصها ومراقبة أدائها، والتنسيق فيما بين المؤسسات والجهات ذات العلاقة وبين الأشخاص المرخص لهم، لوضع الإطار التنظيمي والإجرائي اللازم لضمان مزاولة أنشطة الخدمات عند مستويات
 									ذات جودة وموثوقية عالية وتوفيرها للمستهلك بأسعار تنافسية معقولة تحقق العدالة بين المستهلكين.
@@ -628,84 +628,84 @@
 							</div>
 						</div>
 
-						<div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
-							<div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
-								<h3 class="font-bold text-lg text-primary-50">3. ما هي أهداف الهاكاثون؟</h3>
+						<div x-data="{open: false}" class="bg-primary-100 border-primary flex flex-col overflow-hidden border rounded-lg" :class="{'border-primary-950': open}">
+							<div x-on:click="open = !open" class="bg-primary hover:bg-primary-950 p-4 cursor-pointer" :class="{'bg-primary-950': open}">
+								<h3 class="text-primary-50 text-lg font-bold">3. ما هي أهداف الهاكاثون؟</h3>
 							</div>
 							<div x-cloak x-collapse x-show="open" class="p-4">
-								<p class="font-bold text-lg">يهدف الهاكاثون إلى العمل على رصد التحديات التي تواجه قطاع الكهرباء في المملكة، وإبراز وإشراك أفراد المجتمع بطرح حلولٍ ذات طابع استثماري للتحديات، وأخيرًا خلق شركات استثمارية متنوعة ومستدامة.</p>
+								<p class="text-lg font-bold">يهدف الهاكاثون إلى العمل على رصد التحديات التي تواجه قطاع الكهرباء في المملكة، وإبراز وإشراك أفراد المجتمع بطرح حلولٍ ذات طابع استثماري للتحديات، وأخيرًا خلق شركات استثمارية متنوعة ومستدامة.</p>
 							</div>
 						</div>
 
-						<div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
-							<div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
-								<h3 class="font-bold text-lg text-primary-50">4. ما هي اللغة المستخدمة في الهاكاثون؟</h3>
+						<div x-data="{open: false}" class="bg-primary-100 border-primary flex flex-col overflow-hidden border rounded-lg" :class="{'border-primary-950': open}">
+							<div x-on:click="open = !open" class="bg-primary hover:bg-primary-950 p-4 cursor-pointer" :class="{'bg-primary-950': open}">
+								<h3 class="text-primary-50 text-lg font-bold">4. ما هي اللغة المستخدمة في الهاكاثون؟</h3>
 							</div>
 							<div x-cloak x-collapse x-show="open" class="p-4">
-								<p class="font-bold text-lg">اللغة العربية.</p>
+								<p class="text-lg font-bold">اللغة العربية.</p>
 							</div>
 						</div>
 
-						<div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
-							<div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
-								<h3 class="font-bold text-lg text-primary-50">5. ما هي خطوات التسجيل في الهاكاثون؟</h3>
+						<div x-data="{open: false}" class="bg-primary-100 border-primary flex flex-col overflow-hidden border rounded-lg" :class="{'border-primary-950': open}">
+							<div x-on:click="open = !open" class="bg-primary hover:bg-primary-950 p-4 cursor-pointer" :class="{'bg-primary-950': open}">
+								<h3 class="text-primary-50 text-lg font-bold">5. ما هي خطوات التسجيل في الهاكاثون؟</h3>
 							</div>
 							<div x-cloak x-collapse x-show="open" class="p-4">
-								<p class="font-bold text-lg">بإمكانك التسجيل في الهاكاثون بعد الاطلاع على المسارات والتحديات الموجودة على المنصة، ثم بعد ذلك اختيار التحدي الذي تود المشاركة فيه، ثم تقديم حلك المبتكر بعد إضافة بيانات التواصل الخاص بك.</p>
+								<p class="text-lg font-bold">بإمكانك التسجيل في الهاكاثون بعد الاطلاع على المسارات والتحديات الموجودة على المنصة، ثم بعد ذلك اختيار التحدي الذي تود المشاركة فيه، ثم تقديم حلك المبتكر بعد إضافة بيانات التواصل الخاص بك.</p>
 							</div>
 						</div>
 
-						<div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
-							<div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
-								<h3 class="font-bold text-lg text-primary-50">6. لدي حل وفكرة استثمارية لتحدي في قطاع الكهرباء من خارج المسارات والتحديات المذكورة في المنصة، هل يمكنني المشاركة ؟</h3>
+						<div x-data="{open: false}" class="bg-primary-100 border-primary flex flex-col overflow-hidden border rounded-lg" :class="{'border-primary-950': open}">
+							<div x-on:click="open = !open" class="bg-primary hover:bg-primary-950 p-4 cursor-pointer" :class="{'bg-primary-950': open}">
+								<h3 class="text-primary-50 text-lg font-bold">6. لدي حل وفكرة استثمارية لتحدي في قطاع الكهرباء من خارج المسارات والتحديات المذكورة في المنصة، هل يمكنني المشاركة ؟</h3>
 							</div>
 							<div x-cloak x-collapse x-show="open" class="p-4">
-								<p class="font-bold text-lg">نعم بالطبع، بإمكانك المشاركة بطرح فكرة جديدة ومبتكرة تخدم مجالًا غير موجود في الهاكاثون.</p>
+								<p class="text-lg font-bold">نعم بالطبع، بإمكانك المشاركة بطرح فكرة جديدة ومبتكرة تخدم مجالًا غير موجود في الهاكاثون.</p>
 							</div>
 						</div>
 
-						<div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
-							<div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
-								<h3 class="font-bold text-lg text-primary-50">7. هل بإمكاني التسجيل في جميع المسارات؟</h3>
+						<div x-data="{open: false}" class="bg-primary-100 border-primary flex flex-col overflow-hidden border rounded-lg" :class="{'border-primary-950': open}">
+							<div x-on:click="open = !open" class="bg-primary hover:bg-primary-950 p-4 cursor-pointer" :class="{'bg-primary-950': open}">
+								<h3 class="text-primary-50 text-lg font-bold">7. هل بإمكاني التسجيل في جميع المسارات؟</h3>
 							</div>
 							<div x-cloak x-collapse x-show="open" class="p-4">
-								<p class="font-bold text-lg">نعم، يمكنك التسجيل بأكثر من مسار، ولكن ستشارك بفكرة واحدة إذا تم ترشيحك.</p>
+								<p class="text-lg font-bold">نعم، يمكنك التسجيل بأكثر من مسار، ولكن ستشارك بفكرة واحدة إذا تم ترشيحك.</p>
 							</div>
 						</div>
 
-						<div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
-							<div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
-								<h3 class="font-bold text-lg text-primary-50">8. هل يتطلب وجود فريق؟ وكم العدد المسموح لأعضاء الفريق الواحد؟</h3>
+						<div x-data="{open: false}" class="bg-primary-100 border-primary flex flex-col overflow-hidden border rounded-lg" :class="{'border-primary-950': open}">
+							<div x-on:click="open = !open" class="bg-primary hover:bg-primary-950 p-4 cursor-pointer" :class="{'bg-primary-950': open}">
+								<h3 class="text-primary-50 text-lg font-bold">8. هل يتطلب وجود فريق؟ وكم العدد المسموح لأعضاء الفريق الواحد؟</h3>
 							</div>
 							<div x-cloak x-collapse x-show="open" class="p-4">
-								<p class="font-bold text-lg">يمكنك المشاركة في التحدي كفرد، ولكن بعد ترشح فكرتك للهاكاثون لا بد من تكوين فريق من شخصين يحمل معك الفكرة للمشاركة في الهاكاثون.</p>
+								<p class="text-lg font-bold">يمكنك المشاركة في التحدي كفرد، ولكن بعد ترشح فكرتك للهاكاثون لا بد من تكوين فريق من شخصين يحمل معك الفكرة للمشاركة في الهاكاثون.</p>
 							</div>
 						</div>
 
-						<div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
-							<div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
-								<h3 class="font-bold text-lg text-primary-50">9. هل يمكن تغيير أعضاء الفريق بعد التسجيل؟</h3>
+						<div x-data="{open: false}" class="bg-primary-100 border-primary flex flex-col overflow-hidden border rounded-lg" :class="{'border-primary-950': open}">
+							<div x-on:click="open = !open" class="bg-primary hover:bg-primary-950 p-4 cursor-pointer" :class="{'bg-primary-950': open}">
+								<h3 class="text-primary-50 text-lg font-bold">9. هل يمكن تغيير أعضاء الفريق بعد التسجيل؟</h3>
 							</div>
 							<div x-cloak x-collapse x-show="open" class="p-4">
-								<p class="font-bold text-lg">نعم يمكنك تغيير أعضاء الفريق بعد التسجيل، ولكن عند الترشح لابد لك من اختيار شخصين لتمثيل الفكرة والمشاركة في الهاكاثون.</p>
+								<p class="text-lg font-bold">نعم يمكنك تغيير أعضاء الفريق بعد التسجيل، ولكن عند الترشح لابد لك من اختيار شخصين لتمثيل الفكرة والمشاركة في الهاكاثون.</p>
 							</div>
 						</div>
 
-						<div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
-							<div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
-								<h3 class="font-bold text-lg text-primary-50">10. هل توجد رسوم تسجيل في الهاكاثون؟</h3>
+						<div x-data="{open: false}" class="bg-primary-100 border-primary flex flex-col overflow-hidden border rounded-lg" :class="{'border-primary-950': open}">
+							<div x-on:click="open = !open" class="bg-primary hover:bg-primary-950 p-4 cursor-pointer" :class="{'bg-primary-950': open}">
+								<h3 class="text-primary-50 text-lg font-bold">10. هل توجد رسوم تسجيل في الهاكاثون؟</h3>
 							</div>
 							<div x-cloak x-collapse x-show="open" class="p-4">
-								<p class="font-bold text-lg">لا، لا توجد رسوم تسجيل.</p>
+								<p class="text-lg font-bold">لا، لا توجد رسوم تسجيل.</p>
 							</div>
 						</div>
 
-						<div x-data="{open: false}" class="border flex flex-col bg-primary-100 overflow-hidden border-primary rounded-lg" :class="{'border-primary-950': open}">
-							<div x-on:click="open = !open" class="bg-primary p-4 hover:bg-primary-950 cursor-pointer" :class="{'bg-primary-950': open}">
-								<h3 class="font-bold text-lg text-primary-50">11. هل يُشترط للاشتراك في الهاكاثون العمل في جهة في مجال الكهرباء؟</h3>
+						<div x-data="{open: false}" class="bg-primary-100 border-primary flex flex-col overflow-hidden border rounded-lg" :class="{'border-primary-950': open}">
+							<div x-on:click="open = !open" class="bg-primary hover:bg-primary-950 p-4 cursor-pointer" :class="{'bg-primary-950': open}">
+								<h3 class="text-primary-50 text-lg font-bold">11. هل يُشترط للاشتراك في الهاكاثون العمل في جهة في مجال الكهرباء؟</h3>
 							</div>
 							<div x-cloak x-collapse x-show="open" class="p-4">
-								<p class="font-bold text-lg">لا، لا يُشترط.</p>
+								<p class="text-lg font-bold">لا، لا يُشترط.</p>
 							</div>
 						</div>
 					</div>
@@ -714,8 +714,8 @@
 		</section>
 
 		<section class="bg-white">
-			<div class="container overflow-hidden mx-auto px-4 py-6">
-				<p class="text-sm text-center leading-loose text-gray-600 tracking-wider">
+			<div class="container px-4 py-6 mx-auto overflow-hidden">
+				<p class="text-sm leading-loose tracking-wider text-center text-gray-600">
 					جميع الحقوق محفوظة &copy;
 					<span x-data x-text="new Date().getFullYear()"></span>
 				</p>
@@ -723,7 +723,7 @@
 		</section>
 
 		<section class="bg-white">
-			<div class="w-full h-2 bg-primary"></div>
+			<div class="bg-primary w-full h-2"></div>
 		</section>
 	</body>
 </html>
