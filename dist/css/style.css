@@ -1258,6 +1258,10 @@ video {
   min-height: 864px;
 }
 
+.min-h-\[468px\] {
+  min-height: 468px;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -2078,8 +2082,16 @@ video {
     height: 6rem;
   }
 
+  .md\:min-h-\[528px\] {
+    min-height: 528px;
+  }
+
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
   }
 
   .md\:gap-12 {
