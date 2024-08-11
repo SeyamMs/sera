@@ -1542,6 +1542,18 @@ video {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'dist\/img\/hero-pattern\.svg\'\)\] {
+  background-image: url('dist/img/hero-pattern.svg');
+}
+
+.bg-\[url\(\'\/dist\/img\/hero-pattern\.svg\'\)\] {
+  background-image: url('/dist/img/hero-pattern.svg');
+}
+
+.bg-\[url\(\'\.\.\/img\/hero-pattern\.svg\'\)\] {
+  background-image: url('../img/hero-pattern.svg');
+}
+
 .from-primary {
   --tw-gradient-from: #652980 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(101 41 128 / 0) var(--tw-gradient-to-position);
@@ -2219,6 +2231,18 @@ video {
 
   .dark\:bg-\[url\(\'https\:\/\/flowbite\.s3\.amazonaws\.com\/docs\/jumbotron\/hero-pattern-dark\.svg\'\)\] {
     background-image: url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg');
+  }
+
+  .dark\:bg-\[url\(\'dist\/img\/hero-pattern-dark\.svg\'\)\] {
+    background-image: url('dist/img/hero-pattern-dark.svg');
+  }
+
+  .dark\:bg-\[url\(\'\/dist\/img\/hero-pattern-dark\.svg\'\)\] {
+    background-image: url('/dist/img/hero-pattern-dark.svg');
+  }
+
+  .dark\:bg-\[url\(\'\.\.\/img\/hero-pattern-dark\.svg\'\)\] {
+    background-image: url('../img/hero-pattern-dark.svg');
   }
 
   .dark\:from-primary-900 {
