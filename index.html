@@ -21,7 +21,7 @@
 	</head>
 
 	<body class="font-sans">
-		<section x-data="{ shown: false }" x-intersect.threshold.20="shown = true" class="overflow-hidden bg-white h-screen min-h-[30rem] flex items-center dark:bg-gray-900 bg-[url('../img/hero-pattern.svg')] dark:bg-[url('../img/hero-pattern-dark.svg')]">
+		<section x-data="{ shown: false }" x-intersect.threshold.20="shown = true" class="overflow-hidden h-screen min-h-[30rem] relative flex items-center bg-primary-950 bg-[url('../img/pattern-100px.png')]">
 			<div class="lg:py-24 relative z-10 max-w-screen-xl px-4 py-12 mx-auto text-center">
 				<!-- <h1 class="md:text-5xl lg:text-6xl dark:text-white mb-4 text-4xl font-extrabold leading-none tracking-wide text-gray-900">الهيئة السعودية لتنظيم الكهرباء</h1> -->
 				<div
@@ -79,7 +79,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="bg-gradient-to-b from-primary-50 to-transparent dark:from-primary-900 absolute top-0 left-0 z-0 w-full h-full"></div>
+			<div class="bg-gradient-to-b to-transparent from-primary-950 absolute top-0 left-0 z-0 w-full h-full"></div>
 		</section>
 
 		<section x-data="{ shown: false }" x-intersect.threshold.20="shown = true" class="overflow-hidden">
@@ -377,8 +377,8 @@
 			</div>
 		</section>
 
-		<section x-data="{ shown: false }" x-intersect.threshold.20="shown = true" class="overflow-hidden bg-gradient-to-t from-primary to-primary-950 min-h-[634px]">
-			<div class="md:py-16 container px-2 py-12 mx-auto overflow-hidden">
+		<section x-data="{ shown: false }" x-intersect.threshold.20="shown = true" class="overflow-hidden relative bg-no-repeat bg-cover bg-primary-950 bg-center bg-[url('../img/pattern.png')] min-h-[634px]">
+			<div class="md:py-16 container relative z-10 px-2 py-12 mx-auto overflow-hidden">
 				<div class="md:gap-16 flex flex-col gap-12">
 					<h2
 						x-show="shown"
@@ -633,6 +633,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="bg-gradient-to-b to-transparent from-primary-950 absolute top-0 left-0 z-0 w-full h-full"></div>
 		</section>
 
 		<section x-data="{ shown: false }" x-intersect.threshold.20="shown = true" class="overflow-hidden bg-white min-h-[528px]">
@@ -1103,8 +1104,8 @@
 			</div>
 		</section>
 
-		<section x-data="{ shown: false }" x-intersect.threshold.20="shown = true" class="overflow-hidden bg-gradient-to-t from-primary to-primary-950 min-h-[520px]">
-			<div class="md:py-16 container px-2 py-12 mx-auto overflow-hidden">
+		<section x-data="{ shown: false }" x-intersect.threshold.20="shown = true" class="overflow-hidden relative bg-no-repeat bg-cover bg-primary-950 bg-center bg-[url('../img/pattern.png')] min-h-[520px]">
+			<div class="md:py-16 container relative z-10 px-2 py-12 mx-auto overflow-hidden">
 				<div class="md:gap-16 flex flex-col gap-12">
 					<h2
 						x-show="shown"
@@ -1265,6 +1266,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="bg-gradient-to-b to-transparent from-primary-950 absolute top-0 left-0 z-0 w-full h-full"></div>
 		</section>
 
 		<section x-data="{ shown: false }" x-intersect.threshold.20="shown = true" class="overflow-hidden bg-gray-50 md:min-h-[528px] min-h-[468px]">

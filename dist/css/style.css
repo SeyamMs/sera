@@ -1538,6 +1538,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.bg-primary-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(85 38 105 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\.\/img\/hero-pattern\.svg\'\)\] {
   background-image: url('../img/hero-pattern.svg');
 }
@@ -1560,6 +1570,14 @@ video {
 
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\.\.\/img\/pattern\.png\'\)\] {
+  background-image: url('../img/pattern.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/pattern-100px\.png\'\)\] {
+  background-image: url('../img/pattern-100px.png');
 }
 
 .from-primary {
@@ -1606,6 +1624,22 @@ video {
 
 .to-white {
   --tw-gradient-to: #fff var(--tw-gradient-to-position);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .object-scale-down {
@@ -2267,6 +2301,10 @@ video {
 
   .dark\:bg-\[url\(\'\.\.\/img\/hero-pattern-dark\.svg\'\)\] {
     background-image: url('../img/hero-pattern-dark.svg');
+  }
+
+  .dark\:bg-\[url\(\'\.\.\/img\/pattern-100px\.png\'\)\] {
+    background-image: url('../img/pattern-100px.png');
   }
 
   .dark\:from-primary-900 {
