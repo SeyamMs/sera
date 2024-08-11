@@ -35,6 +35,7 @@
     "@alpine-collective/toolkit": "^1.0.2",
     "@alpinejs/collapse": "^3.14.1",
     "@alpinejs/intersect": "^3.14.1",
+    "@typeform/embed": "^5.0.0",
     "alpinejs": "^3.14.1",
     "copy-webpack-plugin": "^12.0.2",
     "embla-carousel": "^8.1.8",
