@@ -34,10 +34,3 @@ emblaApi
 	// .on("destroy", removePrevNextBtnsClickHandlers)
 	.on("destroy", removePlayBtnListeners)
 // .on("destroy", removeNavBtnListeners)
-
-import { createWidget } from "@typeform/embed"
-import "@typeform/embed/build/css/widget.css"
-
-const options = {}
-
-createWidget("01J4YKQBQ1DG93VM6F94MPB6VW", options)
